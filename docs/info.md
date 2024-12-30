@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Inverter Biased for Linear Mode Operation
 
 ## How to test
 
-Explain how to use your project
+Input a small signal sinewave and see the output using an oscilloscope.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Oscilloscope
