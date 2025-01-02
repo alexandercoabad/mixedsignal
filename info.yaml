@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Inverter Biased for Linear Mode Operation"      # Project title
+  title:        "Mixed-Signal"      # Project title
   author:       "Alexander Co Abad and Isabelle Rose Sta. Rita"      # Your name
   discord:      "alexandercoabad_25756"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Inverter Biased for Linear Mode Operation"      # One-line description of what your project does
