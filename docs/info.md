@@ -13,7 +13,7 @@ Inverter Biased for Linear Mode Operation
 
 ## How to test
 
-First add a 20nF capacitor then input a small signal sinewave and see the output using an oscilloscope.
+First, add a 20nF capacitor then input a small signal sinewave. Then, see the output using an oscilloscope.
 
 ## External hardware
 
