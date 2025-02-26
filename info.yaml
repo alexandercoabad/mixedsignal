@@ -54,8 +54,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[6]: "output"
-  ua[7]: "input"
+  ua[0]: "output"
+  ua[1]: "input"
 
 # Do not change!
 yaml_version: 6

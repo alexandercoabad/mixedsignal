@@ -17,5 +17,4 @@ Add a 20nF capacitor then input a small signal sinewave and see the output using
 
 ## External hardware
 
-Oscilloscope
-20nF capacitor
+Oscilloscope and a 20nF capacitor
