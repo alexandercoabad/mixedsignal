@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module mixedsignal (
+module tt_um_alexandercoabad_mixedsignal (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
