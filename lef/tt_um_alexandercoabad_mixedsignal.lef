@@ -30,10 +30,6 @@ MACRO tt_um_alexandercoabad_mixedsignal
       LAYER met4 ;
         RECT 141.070 224.760 141.370 225.760 ;
     END
-    PORT
-      LAYER li1 ;
-        RECT 143.710 41.200 143.910 41.400 ;
-    END
   END rst_n
   PIN ua[0]
     DIRECTION INOUT ;
@@ -43,10 +39,6 @@ MACRO tt_um_alexandercoabad_mixedsignal
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
     END
-    PORT
-      LAYER met1 ;
-        RECT 143.110 62.150 143.210 62.450 ;
-    END
   END ua[0]
   PIN ua[1]
     DIRECTION INOUT ;
@@ -54,10 +46,6 @@ MACRO tt_um_alexandercoabad_mixedsignal
     PORT
       LAYER met4 ;
         RECT 132.490 0.000 133.390 1.000 ;
-    END
-    PORT
-      LAYER met1 ;
-        RECT 143.010 19.800 143.110 20.100 ;
     END
   END ua[1]
   PIN ua[2]
@@ -457,10 +445,7 @@ MACRO tt_um_alexandercoabad_mixedsignal
         RECT 139.910 42.050 141.360 61.950 ;
         RECT 141.960 41.450 143.010 61.950 ;
         RECT 139.610 41.150 141.410 41.450 ;
-        RECT 141.960 41.400 144.010 41.450 ;
-        RECT 141.960 41.200 143.710 41.400 ;
-        RECT 143.910 41.200 144.010 41.400 ;
-        RECT 141.960 41.150 144.010 41.200 ;
+        RECT 141.960 41.150 144.010 41.450 ;
         RECT 139.910 20.300 141.360 40.200 ;
         RECT 141.960 20.300 143.010 41.150 ;
         RECT 139.910 19.850 140.110 20.300 ;
@@ -468,8 +453,7 @@ MACRO tt_um_alexandercoabad_mixedsignal
         RECT 137.060 96.000 137.310 97.390 ;
         RECT 137.060 95.650 143.960 96.000 ;
         RECT 137.060 95.285 137.310 95.650 ;
-        RECT 138.400 62.150 143.110 62.450 ;
-        RECT 143.210 62.150 143.310 62.450 ;
+        RECT 138.400 62.150 143.050 62.450 ;
         RECT 133.510 49.700 133.760 50.350 ;
         RECT 131.900 49.350 133.800 49.700 ;
         RECT 131.900 42.150 132.650 49.350 ;
@@ -484,8 +468,7 @@ MACRO tt_um_alexandercoabad_mixedsignal
         RECT 137.060 40.980 137.310 41.150 ;
         RECT 145.800 41.100 146.200 41.150 ;
         RECT 138.050 20.100 138.550 20.200 ;
-        RECT 138.050 19.800 143.010 20.100 ;
-        RECT 143.110 19.800 143.310 20.100 ;
+        RECT 138.050 19.800 142.950 20.100 ;
         RECT 138.050 19.700 138.550 19.800 ;
       LAYER met2 ;
         RECT 137.450 62.450 137.950 62.550 ;
@@ -524,9 +507,7 @@ MACRO tt_um_alexandercoabad_mixedsignal
         RECT 136.000 19.700 136.500 19.800 ;
         RECT 136.850 19.700 137.350 19.800 ;
       LAYER met4 ;
-        RECT 1.700 92.500 3.000 220.760 ;
-        RECT 2.100 92.100 3.000 92.500 ;
-        RECT 1.700 5.000 3.000 92.100 ;
+        RECT 1.700 5.000 3.000 220.760 ;
         RECT 5.950 20.100 6.000 220.760 ;
         RECT 136.000 20.100 136.500 20.200 ;
         RECT 5.950 19.800 136.500 20.100 ;
