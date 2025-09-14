@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1757872093
+use sky130_fd_pr__res_xhigh_po_5p73_UP82F9  XR5
+timestamp 1757872093
+transform 1 0 686 0 1 816
+box -739 -869 739 869
+<< end >>

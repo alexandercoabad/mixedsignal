@@ -1,0 +1,32 @@
+* NGSPICE file created from 4-to-1_analog_MUX.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_JZTGL9 a_n260_n274# a_100_n100# a_n158_n100# a_n100_n188#
+X0 a_100_n100# a_n100_n188# a_n158_n100# a_n260_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_U6BDKB w_n246_n319# a_n50_n197# a_50_n100# a_n108_n100#
+X0 a_50_n100# a_n50_n197# a_n108_n100# w_n246_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt Inverter Vin Vout VDD GND
+Xsky130_fd_pr__nfet_01v8_JZTGL9_0 GND Vout GND Vin sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__pfet_01v8_U6BDKB_0 VDD Vin Vout VDD sky130_fd_pr__pfet_01v8_U6BDKB
+.ends
+
+.subckt x4-to-1_analog_MUX GND I1 I2 I3 I4 OUT S1 S2 VDD
+Xsky130_fd_pr__nfet_01v8_JZTGL9_0 GND m1_278_n644# I1 Inverter_1/Vout sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_1 GND I4 m1_278_n2780# S1 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_2 GND m1_278_n2780# I2 Inverter_1/Vout sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_3 GND OUT m1_278_n644# S2bar sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_4 GND I3 m1_278_n644# S1 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_5 GND OUT m1_278_n2780# S2 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__pfet_01v8_U6BDKB_0 VDD S2 OUT m1_278_n644# sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_1 VDD Inverter_1/Vout I4 m1_278_n2780# sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_2 VDD S1 m1_278_n2780# I2 sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_3 VDD S1 m1_278_n644# I1 sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_4 VDD Inverter_1/Vout I3 m1_278_n644# sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_5 VDD S2bar OUT m1_278_n2780# sky130_fd_pr__pfet_01v8_U6BDKB
+XInverter_1 S1 Inverter_1/Vout VDD GND Inverter
+XInverter_0 S2 S2bar VDD GND Inverter
+.ends
+

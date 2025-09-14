@@ -1,0 +1,505 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1757871991
+<< metal1 >>
+rect 5001 56915 7625 57347
+rect 7957 56915 10581 57347
+rect 10913 56915 13537 57347
+rect 13869 56915 16493 57347
+rect 16825 56915 19449 57347
+rect 5001 54031 6147 55227
+rect 6479 54031 7625 55227
+rect 7957 54031 9103 55227
+rect 9435 54031 10581 55227
+rect 10913 54031 12059 55227
+rect 12391 54031 13537 55227
+rect 13869 54031 15015 55227
+rect 15347 54031 16493 55227
+rect 16825 54031 17971 55227
+rect 18303 54031 19449 55227
+rect 5001 51147 6147 52343
+rect 6479 51147 7625 52343
+rect 7957 51147 9103 52343
+rect 9435 51147 10581 52343
+rect 10913 51147 12059 52343
+rect 12391 51147 13537 52343
+rect 13869 51147 15015 52343
+rect 15347 51147 16493 52343
+rect 16825 51147 17971 52343
+rect 18303 51147 19449 52343
+rect 5001 48263 6147 49459
+rect 6479 48263 7625 49459
+rect 7957 48263 9103 49459
+rect 9435 48263 10581 49459
+rect 10913 48263 12059 49459
+rect 12391 48263 13537 49459
+rect 13869 48263 15015 49459
+rect 15347 48263 16493 49459
+rect 16825 48263 17971 49459
+rect 18303 48263 19449 49459
+rect 5001 45379 6147 46575
+rect 6479 45379 7625 46575
+rect 7957 45379 9103 46575
+rect 9435 45379 10581 46575
+rect 10913 45379 12059 46575
+rect 12391 45379 13537 46575
+rect 13869 45379 15015 46575
+rect 15347 45379 16493 46575
+rect 16825 45379 17971 46575
+rect 18303 45379 19449 46575
+rect 5001 42495 6147 43691
+rect 6479 42495 7625 43691
+rect 7957 42495 9103 43691
+rect 9435 42495 10581 43691
+rect 10913 42495 12059 43691
+rect 12391 42495 13537 43691
+rect 13869 42495 15015 43691
+rect 15347 42495 16493 43691
+rect 16825 42495 17971 43691
+rect 18303 42495 19449 43691
+rect 5001 39611 6147 40807
+rect 6479 39611 7625 40807
+rect 7957 39611 9103 40807
+rect 9435 39611 10581 40807
+rect 10913 39611 12059 40807
+rect 12391 39611 13537 40807
+rect 13869 39611 15015 40807
+rect 15347 39611 16493 40807
+rect 16825 39611 17971 40807
+rect 18303 39611 19449 40807
+rect 5001 36727 6147 37923
+rect 6479 36727 7625 37923
+rect 7957 36727 9103 37923
+rect 9435 36727 10581 37923
+rect 10913 36727 12059 37923
+rect 12391 36727 13537 37923
+rect 13869 36727 15015 37923
+rect 15347 36727 16493 37923
+rect 16825 36727 17971 37923
+rect 18303 36727 19449 37923
+rect 5001 33843 6147 35039
+rect 6479 33843 7625 35039
+rect 7957 33843 9103 35039
+rect 9435 33843 10581 35039
+rect 10913 33843 12059 35039
+rect 12391 33843 13537 35039
+rect 13869 33843 15015 35039
+rect 15347 33843 16493 35039
+rect 16825 33843 17971 35039
+rect 18303 33843 19449 35039
+rect 5001 30959 6147 32155
+rect 6479 30959 7625 32155
+rect 7957 30959 9103 32155
+rect 9435 30959 10581 32155
+rect 10913 30959 12059 32155
+rect 12391 30959 13537 32155
+rect 13869 30959 15015 32155
+rect 15347 30959 16493 32155
+rect 16825 30959 17971 32155
+rect 18303 30959 19449 32155
+rect 6479 28839 9103 29271
+rect 9435 28839 12059 29271
+rect 12391 28839 15015 29271
+rect 15347 28839 17971 29271
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0
+timestamp 1757871966
+transform 1 0 5574 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1
+timestamp 1757871966
+transform 1 0 5574 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2
+timestamp 1757871966
+transform 1 0 7052 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3
+timestamp 1757871966
+transform 1 0 8530 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4
+timestamp 1757871966
+transform 1 0 10008 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5
+timestamp 1757871966
+transform 1 0 7052 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6
+timestamp 1757871966
+transform 1 0 8530 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7
+timestamp 1757871966
+transform 1 0 10008 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8
+timestamp 1757871966
+transform 1 0 11486 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9
+timestamp 1757871966
+transform 1 0 12964 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10
+timestamp 1757871966
+transform 1 0 14442 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11
+timestamp 1757871966
+transform 1 0 18876 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12
+timestamp 1757871966
+transform 1 0 11486 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13
+timestamp 1757871966
+transform 1 0 12964 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14
+timestamp 1757871966
+transform 1 0 17398 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15
+timestamp 1757871966
+transform 1 0 15920 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16
+timestamp 1757871966
+transform 1 0 14442 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17
+timestamp 1757871966
+transform 1 0 15920 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18
+timestamp 1757871966
+transform 1 0 17398 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19
+timestamp 1757871966
+transform 1 0 14442 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20
+timestamp 1757871966
+transform 1 0 12964 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21
+timestamp 1757871966
+transform 1 0 11486 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22
+timestamp 1757871966
+transform 1 0 15920 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23
+timestamp 1757871966
+transform 1 0 17398 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24
+timestamp 1757871966
+transform 1 0 18876 0 1 41651
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25
+timestamp 1757871966
+transform 1 0 10008 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26
+timestamp 1757871966
+transform 1 0 8530 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27
+timestamp 1757871966
+transform 1 0 7052 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28
+timestamp 1757871966
+transform 1 0 18876 0 1 38767
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29
+timestamp 1757871966
+transform 1 0 5574 0 1 30115
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30
+timestamp 1757871966
+transform 1 0 5574 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31
+timestamp 1757871966
+transform 1 0 5574 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32
+timestamp 1757871966
+transform 1 0 7052 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33
+timestamp 1757871966
+transform 1 0 8530 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34
+timestamp 1757871966
+transform 1 0 10008 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35
+timestamp 1757871966
+transform 1 0 7052 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36
+timestamp 1757871966
+transform 1 0 8530 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37
+timestamp 1757871966
+transform 1 0 10008 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38
+timestamp 1757871966
+transform 1 0 11486 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39
+timestamp 1757871966
+transform 1 0 12964 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40
+timestamp 1757871966
+transform 1 0 14442 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41
+timestamp 1757871966
+transform 1 0 11486 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42
+timestamp 1757871966
+transform 1 0 12964 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43
+timestamp 1757871966
+transform 1 0 14442 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44
+timestamp 1757871966
+transform 1 0 15920 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45
+timestamp 1757871966
+transform 1 0 17398 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46
+timestamp 1757871966
+transform 1 0 15920 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47
+timestamp 1757871966
+transform 1 0 17398 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48
+timestamp 1757871966
+transform 1 0 18876 0 1 35883
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49
+timestamp 1757871966
+transform 1 0 18876 0 1 32999
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50
+timestamp 1757871966
+transform 1 0 5574 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51
+timestamp 1757871966
+transform 1 0 7052 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52
+timestamp 1757871966
+transform 1 0 8530 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53
+timestamp 1757871966
+transform 1 0 10008 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54
+timestamp 1757871966
+transform 1 0 11486 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55
+timestamp 1757871966
+transform 1 0 12964 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56
+timestamp 1757871966
+transform 1 0 14442 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57
+timestamp 1757871966
+transform 1 0 15920 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58
+timestamp 1757871966
+transform 1 0 17398 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59
+timestamp 1757871966
+transform 1 0 18876 0 1 44535
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60
+timestamp 1757871966
+transform 1 0 18876 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61
+timestamp 1757871966
+transform 1 0 15920 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62
+timestamp 1757871966
+transform 1 0 17398 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63
+timestamp 1757871966
+transform 1 0 11486 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64
+timestamp 1757871966
+transform 1 0 12964 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65
+timestamp 1757871966
+transform 1 0 14442 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66
+timestamp 1757871966
+transform 1 0 7052 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67
+timestamp 1757871966
+transform 1 0 8530 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68
+timestamp 1757871966
+transform 1 0 10008 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69
+timestamp 1757871966
+transform 1 0 5574 0 1 53187
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70
+timestamp 1757871966
+transform 1 0 18876 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71
+timestamp 1757871966
+transform 1 0 18876 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72
+timestamp 1757871966
+transform 1 0 15920 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73
+timestamp 1757871966
+transform 1 0 17398 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74
+timestamp 1757871966
+transform 1 0 15920 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75
+timestamp 1757871966
+transform 1 0 17398 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76
+timestamp 1757871966
+transform 1 0 11486 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77
+timestamp 1757871966
+transform 1 0 12964 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78
+timestamp 1757871966
+transform 1 0 14442 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79
+timestamp 1757871966
+transform 1 0 11486 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80
+timestamp 1757871966
+transform 1 0 12964 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81
+timestamp 1757871966
+transform 1 0 14442 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82
+timestamp 1757871966
+transform 1 0 7052 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83
+timestamp 1757871966
+transform 1 0 8530 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84
+timestamp 1757871966
+transform 1 0 10008 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85
+timestamp 1757871966
+transform 1 0 7052 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86
+timestamp 1757871966
+transform 1 0 8530 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87
+timestamp 1757871966
+transform 1 0 10008 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88
+timestamp 1757871966
+transform 1 0 5574 0 1 47419
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89
+timestamp 1757871966
+transform 1 0 5574 0 1 50303
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90
+timestamp 1757871966
+transform 1 0 5574 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91
+timestamp 1757871966
+transform 1 0 7052 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92
+timestamp 1757871966
+transform 1 0 8530 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93
+timestamp 1757871966
+transform 1 0 10008 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94
+timestamp 1757871966
+transform 1 0 11486 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95
+timestamp 1757871966
+transform 1 0 12964 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96
+timestamp 1757871966
+transform 1 0 14442 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97
+timestamp 1757871966
+transform 1 0 15920 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98
+timestamp 1757871966
+transform 1 0 17398 0 1 56071
+box -739 -1442 739 1442
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG  sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99
+timestamp 1757871966
+transform 1 0 18876 0 1 56071
+box -739 -1442 739 1442
+<< end >>

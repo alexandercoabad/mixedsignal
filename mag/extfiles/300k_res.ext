@@ -1,0 +1,984 @@
+timestamp 1757874219
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27 1 0 7052 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29 1 0 5574 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31 1 0 5574 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35 1 0 7052 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26 1 0 8530 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36 1 0 8530 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25 1 0 10008 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37 1 0 10008 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21 1 0 11486 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41 1 0 11486 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20 1 0 12964 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42 1 0 12964 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19 1 0 14442 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43 1 0 14442 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15 1 0 15920 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46 1 0 15920 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14 1 0 17398 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47 1 0 17398 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11 1 0 18876 0 1 30115
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49 1 0 18876 0 1 32999
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30 1 0 5574 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32 1 0 7052 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33 1 0 8530 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34 1 0 10008 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38 1 0 11486 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39 1 0 12964 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40 1 0 14442 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44 1 0 15920 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45 1 0 17398 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48 1 0 18876 0 1 35883
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1 1 0 5574 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5 1 0 7052 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6 1 0 8530 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7 1 0 10008 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12 1 0 11486 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13 1 0 12964 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16 1 0 14442 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22 1 0 15920 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23 1 0 17398 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28 1 0 18876 0 1 38767
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0 1 0 5574 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2 1 0 7052 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3 1 0 8530 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4 1 0 10008 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8 1 0 11486 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9 1 0 12964 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10 1 0 14442 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17 1 0 15920 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18 1 0 17398 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24 1 0 18876 0 1 41651
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50 1 0 5574 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51 1 0 7052 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52 1 0 8530 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53 1 0 10008 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54 1 0 11486 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55 1 0 12964 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56 1 0 14442 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57 1 0 15920 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58 1 0 17398 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59 1 0 18876 0 1 44535
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82 1 0 7052 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88 1 0 5574 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83 1 0 8530 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84 1 0 10008 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76 1 0 11486 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77 1 0 12964 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78 1 0 14442 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72 1 0 15920 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73 1 0 17398 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70 1 0 18876 0 1 47419
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85 1 0 7052 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89 1 0 5574 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86 1 0 8530 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87 1 0 10008 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79 1 0 11486 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80 1 0 12964 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81 1 0 14442 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74 1 0 15920 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75 1 0 17398 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71 1 0 18876 0 1 50303
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66 1 0 7052 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69 1 0 5574 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67 1 0 8530 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68 1 0 10008 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63 1 0 11486 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64 1 0 12964 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65 1 0 14442 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61 1 0 15920 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62 1 0 17398 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60 1 0 18876 0 1 53187
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90 1 0 5574 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91 1 0 7052 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92 1 0 8530 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93 1 0 10008 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94 1 0 11486 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95 1 0 12964 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96 1 0 14442 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97 1 0 15920 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98 1 0 17398 0 1 56071
+use sky130_fd_pr__res_xhigh_po_5p73_PZF9TG sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99 1 0 18876 0 1 56071
+node "m1_15347_28839#" 1 1922.26 15347 28839 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_28839#" 1 1874.12 12391 28839 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_28839#" 1 1874.12 9435 28839 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_28839#" 1 1922.26 6479 28839 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_30959#" 0 1700.24 18303 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_30959#" 0 1566.96 16825 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_30959#" 0 1566.96 15347 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_30959#" 0 1566.96 13869 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_30959#" 0 1566.96 12391 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_30959#" 0 1566.96 10913 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_30959#" 0 1566.96 9435 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_30959#" 0 1566.96 7957 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_30959#" 0 1566.96 6479 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_30959#" 0 1700.24 5001 30959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_33843#" 0 1700.24 18303 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_33843#" 0 1566.96 16825 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_33843#" 0 1566.96 15347 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_33843#" 0 1566.96 13869 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_33843#" 0 1566.96 12391 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_33843#" 0 1566.96 10913 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_33843#" 0 1566.96 9435 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_33843#" 0 1566.96 7957 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_33843#" 0 1566.96 6479 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_33843#" 0 1700.24 5001 33843 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_36727#" 0 1700.24 18303 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_36727#" 0 1566.96 16825 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_36727#" 0 1566.96 15347 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_36727#" 0 1566.96 13869 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_36727#" 0 1566.96 12391 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_36727#" 0 1566.96 10913 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_36727#" 0 1566.96 9435 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_36727#" 0 1566.96 7957 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_36727#" 0 1566.96 6479 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_36727#" 0 1700.24 5001 36727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_39611#" 0 1700.24 18303 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_39611#" 0 1566.96 16825 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_39611#" 0 1566.96 15347 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_39611#" 0 1566.96 13869 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_39611#" 0 1566.96 12391 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_39611#" 0 1566.96 10913 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_39611#" 0 1566.96 9435 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_39611#" 0 1566.96 7957 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_39611#" 0 1566.96 6479 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_39611#" 0 1700.24 5001 39611 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_42495#" 0 1700.24 18303 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_42495#" 0 1566.96 16825 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_42495#" 0 1566.96 15347 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_42495#" 0 1566.96 13869 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_42495#" 0 1566.96 12391 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_42495#" 0 1566.96 10913 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_42495#" 0 1566.96 9435 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_42495#" 0 1566.96 7957 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_42495#" 0 1566.96 6479 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_42495#" 0 1700.24 5001 42495 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_45379#" 0 1700.24 18303 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_45379#" 0 1566.96 16825 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_45379#" 0 1566.96 15347 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_45379#" 0 1566.96 13869 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_45379#" 0 1566.96 12391 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_45379#" 0 1566.96 10913 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_45379#" 0 1566.96 9435 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_45379#" 0 1566.96 7957 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_45379#" 0 1566.96 6479 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_45379#" 0 1700.24 5001 45379 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_48263#" 0 1700.24 18303 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_48263#" 0 1566.96 16825 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_48263#" 0 1566.96 15347 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_48263#" 0 1566.96 13869 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_48263#" 0 1566.96 12391 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_48263#" 0 1566.96 10913 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_48263#" 0 1566.96 9435 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_48263#" 0 1566.96 7957 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_48263#" 0 1566.96 6479 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_48263#" 0 1700.24 5001 48263 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_51147#" 0 1700.24 18303 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_51147#" 0 1566.96 16825 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_51147#" 0 1566.96 15347 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_51147#" 0 1566.96 13869 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_51147#" 0 1566.96 12391 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_51147#" 0 1566.96 10913 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_51147#" 0 1566.96 9435 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_51147#" 0 1566.96 7957 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_51147#" 0 1566.96 6479 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_51147#" 0 1700.24 5001 51147 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_18303_54031#" 0 1700.24 18303 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_54031#" 0 1566.96 16825 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_15347_54031#" 0 1566.96 15347 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_54031#" 0 1566.96 13869 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_12391_54031#" 0 1566.96 12391 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_54031#" 0 1566.96 10913 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_9435_54031#" 0 1566.96 9435 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_54031#" 0 1566.96 7957 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_6479_54031#" 0 1566.96 6479 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_54031#" 0 1700.24 5001 54031 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1370616 4684 0 0 0 0 0 0 0 0 0 0
+node "m1_16825_56915#" 1 1922.26 16825 56915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_13869_56915#" 1 1874.12 13869 56915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_10913_56915#" 1 1874.12 10913 56915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_7957_56915#" 1 1874.12 7957 56915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+node "m1_5001_56915#" 1 1922.26 5001 56915 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1133568 6112 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_12391_54031#" "m1_13869_54031#" 137.759
+cap "m1_10913_30959#" "m1_12391_30959#" 137.759
+cap "m1_16825_36727#" "m1_18303_36727#" 137.759
+cap "m1_6479_45379#" "m1_7957_45379#" 137.759
+cap "m1_16825_42495#" "m1_18303_42495#" 137.759
+cap "m1_6479_33843#" "m1_7957_33843#" 137.759
+cap "m1_16825_54031#" "m1_18303_54031#" 137.759
+cap "m1_12391_28839#" "m1_15347_28839#" 49.7592
+cap "m1_12391_42495#" "m1_10913_42495#" 137.759
+cap "m1_12391_45379#" "m1_13869_45379#" 137.759
+cap "m1_18303_48263#" "m1_16825_48263#" 137.759
+cap "m1_13869_30959#" "m1_15347_30959#" 137.759
+cap "m1_6479_51147#" "m1_5001_51147#" 137.759
+cap "m1_6479_36727#" "m1_7957_36727#" 137.759
+cap "m1_6479_42495#" "m1_7957_42495#" 137.759
+cap "m1_10913_48263#" "m1_12391_48263#" 137.759
+cap "m1_15347_51147#" "m1_16825_51147#" 137.759
+cap "m1_12391_39611#" "m1_13869_39611#" 137.759
+cap "m1_9435_30959#" "m1_10913_30959#" 137.759
+cap "m1_5001_30959#" "m1_6479_30959#" 137.759
+cap "m1_15347_36727#" "m1_16825_36727#" 137.759
+cap "m1_5001_39611#" "m1_6479_39611#" 137.759
+cap "m1_9435_42495#" "m1_7957_42495#" 137.759
+cap "m1_5001_33843#" "m1_6479_33843#" 137.759
+cap "m1_16825_30959#" "m1_18303_30959#" 137.759
+cap "m1_6479_51147#" "m1_7957_51147#" 137.759
+cap "m1_6479_30959#" "m1_7957_30959#" 137.759
+cap "m1_9435_42495#" "m1_10913_42495#" 137.759
+cap "m1_5001_36727#" "m1_6479_36727#" 137.759
+cap "m1_9435_33843#" "m1_10913_33843#" 137.759
+cap "m1_10913_39611#" "m1_12391_39611#" 137.759
+cap "m1_12391_51147#" "m1_13869_51147#" 137.759
+cap "m1_16825_39611#" "m1_18303_39611#" 137.759
+cap "m1_7957_39611#" "m1_9435_39611#" 137.759
+cap "m1_9435_48263#" "m1_7957_48263#" 137.759
+cap "m1_7957_30959#" "m1_9435_30959#" 137.759
+cap "m1_15347_48263#" "m1_16825_48263#" 137.759
+cap "m1_13869_36727#" "m1_15347_36727#" 137.759
+cap "m1_7957_36727#" "m1_9435_36727#" 137.759
+cap "m1_15347_30959#" "m1_16825_30959#" 137.759
+cap "m1_13869_36727#" "m1_12391_36727#" 137.759
+cap "m1_13869_33843#" "m1_15347_33843#" 137.759
+cap "m1_10913_45379#" "m1_12391_45379#" 137.759
+cap "m1_15347_42495#" "m1_16825_42495#" 137.759
+cap "m1_6479_48263#" "m1_5001_48263#" 137.759
+cap "m1_10913_36727#" "m1_12391_36727#" 137.759
+cap "m1_6479_54031#" "m1_7957_54031#" 137.759
+cap "m1_16825_33843#" "m1_15347_33843#" 137.759
+cap "m1_12391_48263#" "m1_13869_48263#" 137.759
+cap "m1_18303_51147#" "m1_16825_51147#" 137.759
+cap "m1_5001_45379#" "m1_6479_45379#" 137.759
+cap "m1_15347_39611#" "m1_16825_39611#" 137.759
+cap "m1_6479_39611#" "m1_7957_39611#" 137.759
+cap "m1_12391_28839#" "m1_9435_28839#" 49.7592
+cap "m1_16825_33843#" "m1_18303_33843#" 137.759
+cap "m1_15347_45379#" "m1_13869_45379#" 137.759
+cap "m1_12391_33843#" "m1_13869_33843#" 137.759
+cap "m1_16825_54031#" "m1_15347_54031#" 137.759
+cap "m1_9435_36727#" "m1_10913_36727#" 137.759
+cap "m1_9435_51147#" "m1_10913_51147#" 137.759
+cap "m1_16825_56915#" "m1_13869_56915#" 49.7592
+cap "m1_10913_56915#" "m1_13869_56915#" 49.7592
+cap "m1_12391_51147#" "m1_10913_51147#" 137.759
+cap "m1_7957_48263#" "m1_6479_48263#" 137.759
+cap "m1_5001_56915#" "m1_7957_56915#" 49.7592
+cap "m1_10913_33843#" "m1_12391_33843#" 137.759
+cap "m1_9435_45379#" "m1_10913_45379#" 137.759
+cap "m1_15347_51147#" "m1_13869_51147#" 137.759
+cap "m1_13869_42495#" "m1_15347_42495#" 137.759
+cap "m1_13869_39611#" "m1_15347_39611#" 137.759
+cap "m1_10913_39611#" "m1_9435_39611#" 137.759
+cap "m1_9435_48263#" "m1_10913_48263#" 137.759
+cap "m1_5001_54031#" "m1_6479_54031#" 137.759
+cap "m1_12391_30959#" "m1_13869_30959#" 137.759
+cap "m1_7957_45379#" "m1_9435_45379#" 137.759
+cap "m1_9435_54031#" "m1_10913_54031#" 137.759
+cap "m1_15347_48263#" "m1_13869_48263#" 137.759
+cap "m1_9435_51147#" "m1_7957_51147#" 137.759
+cap "m1_6479_28839#" "m1_9435_28839#" 49.7592
+cap "m1_7957_33843#" "m1_9435_33843#" 137.759
+cap "m1_16825_45379#" "m1_18303_45379#" 137.759
+cap "m1_12391_42495#" "m1_13869_42495#" 137.759
+cap "m1_15347_45379#" "m1_16825_45379#" 137.759
+cap "m1_9435_54031#" "m1_7957_54031#" 137.759
+cap "m1_13869_54031#" "m1_15347_54031#" 137.759
+cap "m1_12391_54031#" "m1_10913_54031#" 137.759
+cap "m1_10913_56915#" "m1_7957_56915#" 49.7592
+cap "m1_6479_42495#" "m1_5001_42495#" 137.759
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_n1276#" 4.03461
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n573_n1276#" 23.3109
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" -0.964872
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" 24.404
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" 121.821
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" 5.85536
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" -7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" 9.03254
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" 8.50074
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" -7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" 6.38716
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" -7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" 6.91897
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" 7.96893
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_n1276#" 4.03461
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" 7.45469
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_n1276#" 47.7149
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_n1276#" -12.1464
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" -6.91428
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" 3.54728
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" 3.54728
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_n1276#" -13.9933
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" -12.092
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_n1276#" 10.6263
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_n1276#" 8.725
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_n1276#" -10.1907
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_n1276#" -8.28936
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_n1276#" 6.82368
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_n1276#" -6.38804
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_n1276#" 4.92237
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_n1276#" -4.48672
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_n1276#" 3.02105
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" -2.58541
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" 1.11973
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_n1276#" -0.781591
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_n1276#" -0.684087
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n703_n1406#" -7.91498
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_n1276#" 241.386
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" 5.61653
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_n1276#" 248.85
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" 212.964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" 5.61653
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" 41.5022
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" 199.722
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" 54.7438
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" 186.481
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" 67.9854
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" 173.239
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" 81.227
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" 159.998
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_n1276#" 146.756
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_n1276#" 94.4686
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" 133.514
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" 107.71
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" 120.952
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_n1276#" 120.273
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n703_n1406#" 126.73
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" -21.2165
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" -16.8395
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" -20.7296
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" -18.8283
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" 3.89006
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" -16.9269
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" 1.98875
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" -15.0256
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" 0.0874263
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" -13.1243
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" -1.81389
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" -11.223
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" -3.71521
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" -9.32166
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" -5.61653
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" -7.42035
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" -7.51785
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" -13.7962
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_n1276#" 250.456
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_n1276#" 258.775
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" 219.7
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#" 48.2385
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#" 206.459
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#" 193.217
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#" 61.4801
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#" 74.7217
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#" 179.975
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#" 87.9633
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#" 166.734
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#" 101.205
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#" 153.492
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#" 114.446
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#" 140.251
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" 127.688
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" 127.009
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n703_n1406#" 132.611
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" 4.9353
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" 8.45728
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#" 4.22864
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n703_n1406#" 0.70666
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_n1276#" 224.304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_n1276#" 233.478
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" 194.742
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" 47.8999
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" 183.402
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" 172.061
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" 59.2402
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#" 70.5804
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#" 160.721
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" 81.9207
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" 149.381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" 93.261
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" 138.041
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#" 126.7
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#" 104.601
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#" 115.942
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#" 115.36
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" 118.108
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" -1.77636e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" 3.87914
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" -1.77636e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" -1.77636e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" 6.54607
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" -1.77636e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" -3.55271e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#" 3.27304
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" 0.606104
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" 225.36
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" 235.389
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" 195.698
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#" 48.8555
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#" 184.357
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#" 173.017
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#" 60.1958
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#" 71.536
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#" 161.677
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#" 82.8763
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#" 150.336
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#" 94.2166
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#" 138.996
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#" 127.656
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#" 105.557
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" 116.897
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" 116.316
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n703_n1406#" 118.208
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" 2.82298
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" 4.63487
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" 2.31743
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" 0.505548
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" 226.416
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" 237.3
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 196.653
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" 185.313
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" 49.8111
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" 61.1514
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" 173.973
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#" 162.632
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#" 72.4916
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#" 83.8319
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#" 151.292
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" 139.952
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" 95.1722
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" 106.512
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" 128.612
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" 117.853
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" 117.271
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" 1.42109e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n703_n1406#" 118.309
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" 1.76682
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" 2.72366
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" 1.36183
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n703_n1406#" 0.404992
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" 227.473
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" 239.212
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" 197.609
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#" 186.269
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" 50.7667
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#" 174.928
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" 62.107
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" 73.4472
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" 163.588
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" 84.7875
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" 152.248
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#" 96.1278
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" 140.907
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#" 107.468
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 129.567
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 2.84217e-14
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" 118.808
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#" 118.227
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" 118.41
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_n1276#" 0.657489
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" 0.75928
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_n1276#" 0.37964
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_n1276#" 0.277849
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" 228.582
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_n1276#" 241.176
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_n1276#" 198.591
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_n1276#" 187.251
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_n1276#" 51.7489
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_n1276#" 175.91
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_n1276#" 63.0892
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_n1276#" 164.57
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n703_n1406#" 74.4294
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n703_n1406#" 85.7697
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_n1276#" 153.23
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_n1276#" 97.11
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_n1276#" 141.89
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_n1276#" 130.549
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n703_n1406#" 108.45
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_n1276#" 119.791
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_n1276#" 119.209
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_n1276#" 118.537
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n573_n1276#" 229.239
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n573_n1276#" 241.935
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n573_n1276#" 198.971
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n573_n1276#" 52.1285
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n573_n1276#" 187.63
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n573_n1276#" 176.29
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n703_n1406#" 63.4688
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n573_n1276#" 164.95
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n573_n1276#" 74.8091
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n573_n1276#" 86.1494
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n573_n1276#" 153.609
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n573_n1276#" 142.269
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n703_n1406#" 97.4896
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n573_n1276#" 130.929
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n703_n1406#" 108.83
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n573_n1276#" 120.17
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n573_n1276#" 119.589
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n573_n1276#" 118.815
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n573_n1276#" 229.239
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" 241.935
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n573_n1276#" 198.971
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_n1276#" 9.16381
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n573_n1276#" 52.1285
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_n1276#" 187.63
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n703_n1406#" 63.4688
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n703_n1406#" 176.29
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n703_n1406#" 164.95
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n573_n1276#" 74.8091
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n573_n1276#" 153.609
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_n1276#" 86.1494
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n703_n1406#" 97.4896
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n703_n1406#" 142.269
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n703_n1406#" 108.83
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n703_n1406#" 130.929
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_n1276#" 119.589
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n703_n1406#" 120.17
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n703_n1406#" 118.815
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n703_n1406#" 0.231317
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_844#" 122.079
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n703_n1406#" 9.29844
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_844#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n703_n1406#" 8.76664
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n703_n1406#" 6.12126
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" 6.65307
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" 8.23484
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_844#" 7.10543e-15
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_844#" 7.70303
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n703_n1406#" 7.18487
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n703_n1406#" 111.288
+cap "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_844#" 3.31928
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n573_844#" "m1_18303_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_844#" "m1_10913_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_844#" "m1_13869_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n703_n1406#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n703_n1406#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n703_n1406#" "VSUBS"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_844#" "m1_9435_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n573_844#" "m1_6479_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_844#" "m1_16825_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_844#" "m1_15347_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_844#" "m1_10913_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_844#" "m1_6479_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_844#" "m1_12391_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_844#" "m1_7957_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_844#" "m1_5001_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_844#" "m1_7957_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_844#" "m1_10913_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76/a_n573_844#" "m1_10913_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n573_844#" "m1_9435_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_844#" "m1_18303_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_844#" "m1_16825_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75/a_n573_844#" "m1_16825_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_844#" "m1_18303_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_844#" "m1_12391_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_844#" "m1_16825_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_844#" "m1_6479_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74/a_n573_844#" "m1_15347_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n573_n1276#" -1927.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25/a_n573_n1276#" "m1_9435_28839#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23/a_n573_844#" "m1_16825_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n573_844#" "m1_13869_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_844#" "m1_18303_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_844#" "m1_9435_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_844#" "m1_9435_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_844#" "m1_15347_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_844#" "m1_15347_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n573_n1276#" -1927.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n573_n1276#" "m1_12391_28839#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n573_844#" "m1_5001_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n573_n1276#" -1975.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n573_n1276#" "m1_15347_28839#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_844#" "m1_5001_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59/a_n573_844#" "m1_18303_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n573_844#" -1927.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n573_844#" "m1_7957_56915#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20/a_n573_844#" "m1_12391_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_844#" "m1_5001_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87/a_n573_844#" "m1_9435_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_844#" "m1_10913_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_844#" "m1_13869_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_844#" "m1_15347_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35/a_n573_844#" "m1_6479_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12/a_n573_844#" "m1_10913_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70/a_n573_844#" "m1_18303_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_844#" "m1_5001_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n573_844#" -1927.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96/a_n573_844#" "m1_13869_56915#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_844#" "m1_5001_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37/a_n573_844#" "m1_9435_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68/a_n573_844#" "m1_9435_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_844#" "m1_12391_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_844#" "m1_18303_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_844#" "m1_13869_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36/a_n573_844#" "m1_7957_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_844#" "m1_7957_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18/a_n573_844#" "m1_16825_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55/a_n573_844#" "m1_12391_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_844#" "m1_6479_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81/a_n573_844#" "m1_13869_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34/a_n573_844#" "m1_9435_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4/a_n573_844#" "m1_9435_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33/a_n573_844#" "m1_7957_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8/a_n573_844#" "m1_10913_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_844#" "m1_7957_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n573_844#" "m1_12391_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66/a_n573_844#" "m1_6479_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_844#" "m1_6479_48263#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62/a_n573_844#" "m1_16825_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42/a_n573_844#" "m1_12391_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_844#" "m1_7957_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19/a_n573_844#" "m1_13869_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49/a_n573_844#" "m1_18303_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30/a_n573_844#" "m1_5001_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n573_844#" -1924.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98/a_n573_844#" "m1_16825_56915#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80/a_n573_844#" "m1_12391_51147#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47/a_n573_844#" "m1_16825_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56/a_n573_844#" "m1_13869_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5/a_n573_844#" "m1_6479_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63/a_n573_844#" "m1_10913_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15/a_n573_844#" "m1_15347_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44/a_n573_844#" "m1_15347_36727#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16/a_n573_844#" "m1_13869_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41/a_n573_844#" "m1_10913_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n573_844#" -1927.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94/a_n573_844#" "m1_10913_56915#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43/a_n573_844#" "m1_13869_33843#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n573_n1276#" -1975.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27/a_n573_n1276#" "m1_6479_28839#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13/a_n573_844#" "m1_12391_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91/a_n573_844#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n573_844#" -1924.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90/a_n573_844#" "m1_5001_56915#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_844#" "m1_5001_30959#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67/a_n573_844#" "m1_7957_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58/a_n573_844#" "m1_16825_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50/a_n573_844#" "m1_5001_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_844#" "m1_7957_42495#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_844#" -1941.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28/a_n573_844#" "m1_18303_39611#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61/a_n573_844#" "m1_15347_54031#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51/a_n573_844#" "m1_6479_45379#"
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57/a_n573_n1276#" "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_844#" -1952.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -930884 -6188 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17/a_n573_844#" "m1_15347_42495#"

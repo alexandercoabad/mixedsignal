@@ -1,0 +1,261 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_5p73 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_5p73 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_5p73 |Circuit 2: sky130_fd_pr__res_xhigh_po_5p73 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_5p73 and sky130_fd_pr__res_xhigh_po_5p73 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JZTGL9 in circuit Inverter (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_U6BDKB in circuit Inverter (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: Inverter                        |Circuit 2: Inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: Inverter                        |Circuit 2: Inverter                        
+-------------------------------------------|-------------------------------------------
+Vout                                       |Vout                                       
+Vin                                        |Vin                                        
+VDD                                        |VDD                                        
+GND                                        |GND                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes Inverter and Inverter are equivalent.
+Flattening unmatched subcell Inverter_base in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TEWFY7 in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_X45PJH in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell x300k_res in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_PZF9TG in circuit tt_um_alexandercoabad_mixedsignal (0)(100 instances)
+Flattening unmatched subcell x3k_res in circuit tt_um_alexandercoabad_mixedsignal (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_PZF9TG in circuit tt_um_alexandercoabad_mixedsignal (0)(2 instances)
+Flattening unmatched subcell x4-to-1_analog_MUX in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_JZTGL9 in circuit tt_um_alexandercoabad_mixedsignal (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_U6BDKB in circuit tt_um_alexandercoabad_mixedsignal (0)(6 instances)
+Flattening unmatched subcell x30k_res in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_PZF9TG in circuit tt_um_alexandercoabad_mixedsignal (0)(10 instances)
+Flattening unmatched subcell x100k_res in circuit tt_um_alexandercoabad_mixedsignal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_UP82F9 in circuit tt_um_alexandercoabad_mixedsignal (0)(100 instances)
+Flattening unmatched subcell 4-to-1_analog_MUX in circuit mixedsignal_final (1)(1 instance)
+
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: clk
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ena
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: rst_n
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[7]
+Class tt_um_alexandercoabad_mixedsignal (0):  Merged 8 parallel devices.
+Class tt_um_alexandercoabad_mixedsignal (0):  Merged 207 series devices.
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: clk
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ena
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: rst_n
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ua[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: ui_in[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_in[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_oe[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uio_out[7]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[0]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[1]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[2]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[3]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[4]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[5]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[6]
+Cell tt_um_alexandercoabad_mixedsignal (0) disconnected node: uo_out[7]
+Subcircuit summary:
+Circuit 1: tt_um_alexandercoabad_mixedsign |Circuit 2: mixedsignal_final               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (11->7)            |sky130_fd_pr__nfet_01v8 (7)                
+sky130_fd_pr__pfet_01v8 (11->7)            |sky130_fd_pr__pfet_01v8 (7)                
+sky130_fd_pr__res_xhigh_po_5p73 (212->5)   |sky130_fd_pr__res_xhigh_po_5p73 (5)        
+Inverter (2)                               |Inverter (2)                               
+Number of devices: 21                      |Number of devices: 21                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: tt_um_alexandercoabad_mixedsign |Circuit 2: mixedsignal_final               
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VDPWR                                      |VDPWR                                      
+ua[0]                                      |ua[0]                                      
+(no matching pin)                          |ui_in[0]                                   
+(no matching pin)                          |ui_in[1]                                   
+(no matching pin)                          |ua[1]                                      
+clk                                        |(no matching pin)                          
+ena                                        |(no matching pin)                          
+rst_n                                      |(no matching pin)                          
+ua[1]                                      |(no matching pin)                          
+ua[2]                                      |(no matching pin)                          
+ua[3]                                      |(no matching pin)                          
+ua[4]                                      |(no matching pin)                          
+ua[5]                                      |(no matching pin)                          
+ua[6]                                      |(no matching pin)                          
+ua[7]                                      |(no matching pin)                          
+ui_in[0]                                   |(no matching pin)                          
+ui_in[1]                                   |(no matching pin)                          
+ui_in[2]                                   |(no matching pin)                          
+ui_in[3]                                   |(no matching pin)                          
+ui_in[4]                                   |(no matching pin)                          
+ui_in[5]                                   |(no matching pin)                          
+ui_in[6]                                   |(no matching pin)                          
+ui_in[7]                                   |(no matching pin)                          
+uio_in[0]                                  |(no matching pin)                          
+uio_in[1]                                  |(no matching pin)                          
+uio_in[2]                                  |(no matching pin)                          
+uio_in[3]                                  |(no matching pin)                          
+uio_in[4]                                  |(no matching pin)                          
+uio_in[5]                                  |(no matching pin)                          
+uio_in[6]                                  |(no matching pin)                          
+uio_in[7]                                  |(no matching pin)                          
+uio_oe[0]                                  |(no matching pin)                          
+uio_oe[1]                                  |(no matching pin)                          
+uio_oe[2]                                  |(no matching pin)                          
+uio_oe[3]                                  |(no matching pin)                          
+uio_oe[4]                                  |(no matching pin)                          
+uio_oe[5]                                  |(no matching pin)                          
+uio_oe[6]                                  |(no matching pin)                          
+uio_oe[7]                                  |(no matching pin)                          
+uio_out[0]                                 |(no matching pin)                          
+uio_out[1]                                 |(no matching pin)                          
+uio_out[2]                                 |(no matching pin)                          
+uio_out[3]                                 |(no matching pin)                          
+uio_out[4]                                 |(no matching pin)                          
+uio_out[5]                                 |(no matching pin)                          
+uio_out[6]                                 |(no matching pin)                          
+uio_out[7]                                 |(no matching pin)                          
+uo_out[0]                                  |(no matching pin)                          
+uo_out[1]                                  |(no matching pin)                          
+uo_out[2]                                  |(no matching pin)                          
+uo_out[3]                                  |(no matching pin)                          
+uo_out[4]                                  |(no matching pin)                          
+uo_out[5]                                  |(no matching pin)                          
+uo_out[6]                                  |(no matching pin)                          
+uo_out[7]                                  |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for tt_um_alexandercoabad_mixedsignal and mixedsignal_final altered to match.
+Device classes tt_um_alexandercoabad_mixedsignal and mixedsignal_final are equivalent.
+
+Final result: Top level cell failed pin matching.
