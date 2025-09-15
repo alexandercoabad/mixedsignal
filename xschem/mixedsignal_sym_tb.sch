@@ -118,10 +118,8 @@ C {gnd.sym} -330 110 0 0 {name=l5 lab=GND}
 C {vdd.sym} -330 0 0 0 {name=l4 lab=VDD}
 C {gnd.sym} -250 110 0 0 {name=l7 lab=GND}
 C {lab_pin.sym} -250 0 0 0 {name=p12 sig_type=std_logic lab=S1}
-C {vsource.sym} -170 60 0 0 {name=VVDD6 value=0 savecurrent=false}
 C {gnd.sym} -170 110 0 0 {name=l8 lab=GND}
 C {lab_pin.sym} -170 0 0 0 {name=p13 sig_type=std_logic lab=S2}
-C {vsource.sym} -250 60 0 0 {name=VVDD1 value=1.8 savecurrent=false}
 C {lab_pin.sym} 40 270 0 0 {name=p1 sig_type=std_logic lab=S1}
 C {lab_pin.sym} 40 290 0 0 {name=p2 sig_type=std_logic lab=S2}
 C {lab_pin.sym} -310 210 0 0 {name=p3 sig_type=std_logic lab=VIN}
@@ -137,3 +135,5 @@ C {vsource.sym} -310 340 0 0 {name=V2 value="dc 0 sin(0 10m 10k) ac 1 0" savecur
 C {gnd.sym} -310 390 0 0 {name=l1 lab=GND}
 C {lab_pin.sym} 340 230 0 1 {name=p7 sig_type=std_logic lab=VOUT}
 C {lab_pin.sym} 40 310 0 0 {name=p8 sig_type=std_logic lab=analogIN}
+C {vsource.sym} -170 60 0 0 {name=VVDD2 value=1.8 savecurrent=false}
+C {vsource.sym} -250 60 0 0 {name=VVDD1 value=1.8 savecurrent=false}
