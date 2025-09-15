@@ -1,8 +1,12 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny Tapeout Analog Project Template
+# Inverter Biased for Linear Mode Operation
 
 - [Read the documentation for project](docs/info.md)
+
+<p align="center">
+  <img src="docs/layout.png" alt="Layout" width="400"/>
+</p>
 
 ## What is Tiny Tapeout?
 
