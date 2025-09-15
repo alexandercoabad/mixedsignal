@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
-  title:        "Mixed-Signal"      # Project title
+  title:        "mixedsignal"      # Project title
   author:       "Alexander Co Abad and Isabelle Rose Sta Rita"      # Your name
-  discord:      "alexandercoabad_25756"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "alexandercoabad_25756 and dubsdubu01"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Inverter Biased for Linear Mode Operation"      # One-line description of what your project does
   language:     "Analog" # Other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -24,8 +24,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "MUX selector 1"
+  ui[1]: "MUX selector 2"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -54,8 +54,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "output"
-  ua[1]: "input"
+  ua[0]: "analog output"
+  ua[1]: "analog input"
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""

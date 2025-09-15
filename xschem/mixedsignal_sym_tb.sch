@@ -113,7 +113,7 @@ C {code_shown.sym} -10 -220 0 0 {name=Commands only_toplevel=false value="
   quit 0
 .endc
 "}
-C {vsource.sym} -330 60 0 0 {name=VVDD value=1.8 savecurrent=false}
+C {vsource.sym} -330 60 0 0 {name=VDD value=1.8 savecurrent=false}
 C {gnd.sym} -330 110 0 0 {name=l5 lab=GND}
 C {vdd.sym} -330 0 0 0 {name=l4 lab=VDD}
 C {gnd.sym} -250 110 0 0 {name=l7 lab=GND}
@@ -135,5 +135,5 @@ C {vsource.sym} -310 340 0 0 {name=V2 value="dc 0 sin(0 10m 10k) ac 1 0" savecur
 C {gnd.sym} -310 390 0 0 {name=l1 lab=GND}
 C {lab_pin.sym} 340 230 0 1 {name=p7 sig_type=std_logic lab=VOUT}
 C {lab_pin.sym} 40 310 0 0 {name=p8 sig_type=std_logic lab=analogIN}
-C {vsource.sym} -170 60 0 0 {name=VVDD2 value=1.8 savecurrent=false}
-C {vsource.sym} -250 60 0 0 {name=VVDD1 value=1.8 savecurrent=false}
+C {vsource.sym} -170 60 0 0 {name=VDD2 value=0 savecurrent=false}
+C {vsource.sym} -250 60 0 0 {name=VDD1 value=0 savecurrent=false}
