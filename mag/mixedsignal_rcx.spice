@@ -1,0 +1,743 @@
+* SPICE3 file created from mixedsignal_test.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_TEWFY7 a_208_n400# a_366_n400# a_108_n488# a_50_n400#
++ a_n208_n488# a_266_n488# a_n366_n488# a_n108_n400# a_n266_n400# a_n50_n488# a_n526_n574#
++ a_n424_n400#
+X0 a_n266_n400# a_n366_n488# a_n424_n400# a_n526_n574# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X1 a_366_n400# a_266_n488# a_208_n400# a_n526_n574# sky130_fd_pr__nfet_01v8 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X2 a_50_n400# a_n50_n488# a_n108_n400# a_n526_n574# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X3 a_n108_n400# a_n208_n488# a_n266_n400# a_n526_n574# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X4 a_208_n400# a_108_n488# a_50_n400# a_n526_n574# sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_X45PJH a_n208_n497# a_266_n497# a_208_n400# a_n366_n497#
++ a_366_n400# a_n50_n497# a_50_n400# w_n562_n619# a_n108_n400# a_n266_n400# a_n424_n400#
++ a_108_n497# VSUBS
+X0 a_n266_n400# a_n366_n497# a_n424_n400# w_n562_n619# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X1 a_366_n400# a_266_n497# a_208_n400# w_n562_n619# sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X2 a_50_n400# a_n50_n497# a_n108_n400# w_n562_n619# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X3 a_n108_n400# a_n208_n497# a_n266_n400# w_n562_n619# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+X4 a_208_n400# a_108_n497# a_50_n400# w_n562_n619# sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.5
+C0 w_n562_n619# VSUBS 5.34997f
+.ends
+
+.subckt Inverter_base m1_330_n303# li_73_1291# m1_260_n192# VSUBS
+Xsky130_fd_pr__nfet_01v8_TEWFY7_0 VSUBS m1_330_n303# m1_260_n192# m1_330_n303# m1_260_n192#
++ m1_260_n192# m1_260_n192# VSUBS m1_330_n303# m1_260_n192# VSUBS VSUBS sky130_fd_pr__nfet_01v8_TEWFY7
+Xsky130_fd_pr__pfet_01v8_X45PJH_0 m1_260_n192# m1_260_n192# li_73_1291# m1_260_n192#
++ m1_330_n303# m1_260_n192# m1_330_n303# li_73_1291# li_73_1291# m1_330_n303# li_73_1291#
++ m1_260_n192# VSUBS sky130_fd_pr__pfet_01v8_X45PJH
+C0 m1_260_n192# VSUBS 2.27767f
+C1 li_73_1291# VSUBS 5.693356f
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_PZF9TG a_n573_n1276# a_n573_844# a_n703_n1406#
+X0 a_n573_844# a_n573_n1276# a_n703_n1406# sky130_fd_pr__res_xhigh_po_5p73 l=8.6
+.ends
+
+.subckt x300k_res sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_n1276# sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_n1276#
++ VSUBS
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0 m1_5001_39611# m1_5001_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1 m1_5001_36727# m1_5001_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2 m1_6479_39611# m1_6479_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3 m1_7957_39611# m1_7957_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4 m1_9435_39611# m1_9435_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_90 m1_5001_54031# m1_5001_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5 m1_6479_36727# m1_6479_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_80 m1_12391_48263# m1_12391_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_91 m1_6479_54031# m1_5001_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6 m1_7957_36727# m1_7957_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_70 m1_18303_45379# m1_18303_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_81 m1_13869_48263# m1_13869_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_92 m1_7957_54031# m1_7957_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7 m1_9435_36727# m1_9435_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_82 m1_6479_45379# m1_6479_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_71 m1_18303_48263# m1_18303_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_60 m1_18303_51147# m1_18303_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_93 m1_9435_54031# m1_7957_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8 m1_10913_39611# m1_10913_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_50 m1_5001_42495# m1_5001_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_83 m1_7957_45379# m1_7957_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_72 m1_15347_45379# m1_15347_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_61 m1_15347_51147# m1_15347_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_94 m1_10913_54031# m1_10913_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_40 m1_13869_33843# m1_13869_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9 m1_12391_39611# m1_12391_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_51 m1_6479_42495# m1_6479_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_84 m1_9435_45379# m1_9435_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_73 m1_16825_45379# m1_16825_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_62 m1_16825_51147# m1_16825_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_95 m1_12391_54031# m1_10913_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_96 m1_13869_54031# m1_13869_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_41 m1_10913_30959# m1_10913_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_30 m1_5001_33843# m1_5001_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_52 m1_7957_42495# m1_7957_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_85 m1_6479_48263# m1_6479_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_74 m1_15347_48263# m1_15347_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_63 m1_10913_51147# m1_10913_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_97 m1_15347_54031# m1_13869_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_31 m1_5001_30959# m1_5001_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_20 m1_12391_28839# m1_12391_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_42 m1_12391_30959# m1_12391_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_53 m1_9435_42495# m1_9435_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_86 m1_7957_48263# m1_7957_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_75 m1_16825_48263# m1_16825_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_64 m1_12391_51147# m1_12391_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_98 m1_16825_54031# m1_16825_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_21 m1_9435_28839# m1_10913_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_43 m1_13869_30959# m1_13869_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_32 m1_6479_33843# m1_6479_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_10 m1_13869_39611# m1_13869_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_54 m1_10913_42495# m1_10913_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_76 m1_10913_45379# m1_10913_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_87 m1_9435_48263# m1_9435_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_65 m1_13869_51147# m1_13869_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_99 m1_18303_54031# m1_16825_56915# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11 sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_11/a_n573_n1276#
++ m1_18303_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_33 m1_7957_33843# m1_7957_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_44 m1_15347_33843# m1_15347_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_22 m1_15347_36727# m1_15347_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_55 m1_12391_42495# m1_12391_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_88 m1_5001_45379# m1_5001_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_77 m1_12391_45379# m1_12391_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_66 m1_6479_51147# m1_6479_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_34 m1_9435_33843# m1_9435_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_45 m1_16825_33843# m1_16825_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_12 m1_10913_36727# m1_10913_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_23 m1_16825_36727# m1_16825_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_56 m1_13869_42495# m1_13869_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_78 m1_13869_45379# m1_13869_48263# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_89 m1_5001_48263# m1_5001_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_67 m1_7957_51147# m1_7957_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_35 m1_6479_30959# m1_6479_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_46 m1_15347_30959# m1_15347_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_13 m1_12391_36727# m1_12391_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_24 m1_18303_39611# m1_18303_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_57 m1_15347_42495# m1_15347_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_79 m1_10913_48263# m1_10913_51147# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_68 m1_9435_51147# m1_9435_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_14 m1_15347_28839# m1_16825_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_36 m1_7957_30959# m1_7957_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_25 m1_9435_28839# m1_9435_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_47 m1_16825_30959# m1_16825_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_58 m1_16825_42495# m1_16825_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_69 m1_5001_51147# m1_5001_54031# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_26 m1_6479_28839# m1_7957_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_37 m1_9435_30959# m1_9435_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_15 m1_15347_28839# m1_15347_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_48 m1_18303_33843# m1_18303_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_59 m1_18303_42495# m1_18303_45379# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_27 m1_6479_28839# m1_6479_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_49 m1_18303_30959# m1_18303_33843# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_38 m1_10913_33843# m1_10913_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_16 m1_13869_36727# m1_13869_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_39 m1_12391_33843# m1_12391_36727# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_28 m1_18303_36727# m1_18303_39611# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_17 m1_15347_39611# m1_15347_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29 sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_29/a_n573_n1276#
++ m1_5001_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_18 m1_16825_39611# m1_16825_42495# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_19 m1_12391_28839# m1_13869_30959# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+C0 m1_13869_30959# VSUBS 3.518179f
+C1 m1_16825_42495# VSUBS 3.51818f
+C2 m1_5001_30959# VSUBS 3.649834f
+C3 m1_15347_42495# VSUBS 3.518178f
+C4 m1_18303_39611# VSUBS 3.649833f
+C5 m1_12391_36727# VSUBS 3.518179f
+C6 m1_13869_39611# VSUBS 3.518178f
+C7 m1_10913_36727# VSUBS 3.518179f
+C8 m1_18303_33843# VSUBS 3.649834f
+C9 m1_6479_28839# VSUBS 3.725952f
+C10 m1_6479_30959# VSUBS 3.518179f
+C11 m1_18303_45379# VSUBS 3.649834f
+C12 m1_18303_36727# VSUBS 3.649834f
+C13 m1_15347_28839# VSUBS 3.725952f
+C14 m1_15347_30959# VSUBS 3.518179f
+C15 m1_9435_33843# VSUBS 3.518179f
+C16 m1_7957_30959# VSUBS 3.518179f
+C17 m1_5001_54031# VSUBS 3.649833f
+C18 m1_16825_45379# VSUBS 3.518178f
+C19 m1_16825_33843# VSUBS 3.518179f
+C20 m1_9435_28839# VSUBS 3.725198f
+C21 m1_9435_30959# VSUBS 3.518179f
+C22 m1_7957_33843# VSUBS 3.518179f
+C23 m1_16825_30959# VSUBS 3.518179f
+C24 m1_9435_54031# VSUBS 3.518179f
+C25 m1_10913_51147# VSUBS 3.518179f
+C26 m1_15347_45379# VSUBS 3.518178f
+C27 m1_18303_42495# VSUBS 3.649833f
+C28 m1_12391_39611# VSUBS 3.518179f
+C29 m1_15347_33843# VSUBS 3.518178f
+C30 m1_6479_33843# VSUBS 3.518179f
+C31 m1_7957_54031# VSUBS 3.518179f
+C32 m1_5001_51147# VSUBS 3.649833f
+C33 m1_13869_48263# VSUBS 3.518179f
+C34 m1_13869_45379# VSUBS 3.518179f
+C35 m1_16825_39611# VSUBS 3.518179f
+C36 m1_10913_39611# VSUBS 3.518179f
+C37 m1_16825_36727# VSUBS 3.518179f
+C38 m1_9435_36727# VSUBS 3.51818f
+C39 m1_6479_54031# VSUBS 3.518179f
+C40 m1_12391_48263# VSUBS 3.518179f
+C41 m1_5001_48263# VSUBS 3.649834f
+C42 m1_12391_45379# VSUBS 3.518179f
+C43 m1_15347_39611# VSUBS 3.518179f
+C44 m1_15347_36727# VSUBS 3.518179f
+C45 m1_7957_36727# VSUBS 3.518179f
+C46 m1_18303_30959# VSUBS 3.649834f
+C47 m1_13869_54031# VSUBS 3.518178f
+C48 m1_9435_51147# VSUBS 3.518179f
+C49 m1_10913_48263# VSUBS 3.518178f
+C50 m1_10913_45379# VSUBS 3.518179f
+C51 m1_13869_42495# VSUBS 3.518179f
+C52 m1_6479_36727# VSUBS 3.518179f
+C53 m1_13869_33843# VSUBS 3.518179f
+C54 m1_10913_30959# VSUBS 3.518179f
+C55 m1_16825_56915# VSUBS 3.77265f
+C56 m1_12391_54031# VSUBS 3.518179f
+C57 m1_16825_51147# VSUBS 3.518179f
+C58 m1_7957_51147# VSUBS 3.518179f
+C59 m1_9435_45379# VSUBS 3.518179f
+C60 m1_12391_33843# VSUBS 3.518179f
+C61 m1_12391_28839# VSUBS 3.725198f
+C62 m1_12391_30959# VSUBS 3.518179f
+C63 m1_5001_33843# VSUBS 3.649834f
+C64 m1_10913_54031# VSUBS 3.518179f
+C65 m1_15347_51147# VSUBS 3.518179f
+C66 m1_6479_51147# VSUBS 3.518179f
+C67 m1_7957_45379# VSUBS 3.518179f
+C68 m1_5001_36727# VSUBS 3.649833f
+C69 m1_10913_33843# VSUBS 3.518179f
+C70 m1_13869_56915# VSUBS 3.725198f
+C71 m1_16825_54031# VSUBS 3.518179f
+C72 m1_16825_48263# VSUBS 3.518179f
+C73 m1_9435_48263# VSUBS 3.518179f
+C74 m1_6479_45379# VSUBS 3.518179f
+C75 m1_12391_42495# VSUBS 3.518178f
+C76 m1_13869_36727# VSUBS 3.518179f
+C77 m1_10913_56915# VSUBS 3.725198f
+C78 m1_15347_54031# VSUBS 3.518179f
+C79 m1_15347_48263# VSUBS 3.518179f
+C80 m1_7957_48263# VSUBS 3.518179f
+C81 m1_5001_45379# VSUBS 3.649834f
+C82 m1_10913_42495# VSUBS 3.518179f
+C83 m1_18303_54031# VSUBS 3.649834f
+C84 m1_18303_51147# VSUBS 3.649834f
+C85 m1_6479_48263# VSUBS 3.518179f
+C86 m1_9435_39611# VSUBS 3.518178f
+C87 m1_7957_56915# VSUBS 3.725198f
+C88 m1_13869_51147# VSUBS 3.518178f
+C89 m1_18303_48263# VSUBS 3.649834f
+C90 m1_7957_39611# VSUBS 3.518179f
+C91 m1_12391_51147# VSUBS 3.518179f
+C92 m1_6479_39611# VSUBS 3.518179f
+C93 m1_5001_56915# VSUBS 3.77265f
+C94 m1_9435_42495# VSUBS 3.518179f
+C95 m1_7957_42495# VSUBS 3.518179f
+C96 m1_6479_42495# VSUBS 3.518178f
+C97 m1_5001_39611# VSUBS 3.649833f
+C98 m1_5001_42495# VSUBS 3.649833f
+.ends
+
+.subckt x3k_res XR3/a_n573_844# XR3/a_n573_n1276# VSUBS
+XXR3 XR3/a_n573_n1276# XR3/a_n573_844# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_JZTGL9 a_n260_n274# a_100_n100# a_n158_n100# a_n100_n188#
+X0 a_100_n100# a_n100_n188# a_n158_n100# a_n260_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_U6BDKB w_n246_n319# a_n50_n197# a_50_n100# a_n108_n100#
++ VSUBS
+X0 a_50_n100# a_n50_n197# a_n108_n100# w_n246_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt Inverter Vin Vout VDD GND
+Xsky130_fd_pr__nfet_01v8_JZTGL9_0 GND Vout GND Vin sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__pfet_01v8_U6BDKB_0 VDD Vin Vout VDD GND sky130_fd_pr__pfet_01v8_U6BDKB
+.ends
+
+.subckt x4-to-1_analog_MUX I1 I2 I3 I4 S1 S2 OUT VDD GND
+Xsky130_fd_pr__nfet_01v8_JZTGL9_0 GND m1_278_n644# I1 Inverter_1/Vout sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_1 GND I4 m1_278_n2780# S1 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_2 GND m1_278_n2780# I2 Inverter_1/Vout sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_3 GND OUT m1_278_n644# S2bar sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_4 GND I3 m1_278_n644# S1 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__nfet_01v8_JZTGL9_5 GND OUT m1_278_n2780# S2 sky130_fd_pr__nfet_01v8_JZTGL9
+Xsky130_fd_pr__pfet_01v8_U6BDKB_0 VDD S2 OUT m1_278_n644# GND sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_1 VDD Inverter_1/Vout I4 m1_278_n2780# GND sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_2 VDD S1 m1_278_n2780# I2 GND sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_3 VDD S1 m1_278_n644# I1 GND sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_4 VDD Inverter_1/Vout I3 m1_278_n644# GND sky130_fd_pr__pfet_01v8_U6BDKB
+Xsky130_fd_pr__pfet_01v8_U6BDKB_5 VDD S2bar OUT m1_278_n2780# GND sky130_fd_pr__pfet_01v8_U6BDKB
+XInverter_1 S1 Inverter_1/Vout VDD GND Inverter
+XInverter_0 S2 S2bar VDD GND Inverter
+C0 Inverter_1/Vout GND 2.264697f
+C1 VDD GND 13.715749f
+C2 S2 GND 2.089184f
+C3 S1 GND 2.927083f
+.ends
+
+.subckt x30k_res sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276# sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#
++ VSUBS
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0 sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_0/a_n573_n1276#
++ m1_11905_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_1 m1_10427_115# m1_11905_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_2 m1_1559_115# m1_81_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3 sky130_fd_pr__res_xhigh_po_5p73_PZF9TG_3/a_n573_n1276#
++ m1_81_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_4 m1_7471_115# m1_8949_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_5 m1_10427_115# m1_8949_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_7 m1_7471_115# m1_5993_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_6 m1_4515_115# m1_5993_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_8 m1_1559_115# m1_3037_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+Xsky130_fd_pr__res_xhigh_po_5p73_PZF9TG_9 m1_4515_115# m1_3037_2235# VSUBS sky130_fd_pr__res_xhigh_po_5p73_PZF9TG
+C0 m1_4515_115# VSUBS 3.725198f
+C1 m1_3037_2235# VSUBS 3.725198f
+C2 m1_5993_2235# VSUBS 3.725198f
+C3 m1_7471_115# VSUBS 3.725198f
+C4 m1_10427_115# VSUBS 3.725952f
+C5 m1_8949_2235# VSUBS 3.725198f
+C6 m1_81_2235# VSUBS 3.77265f
+C7 m1_1559_115# VSUBS 3.725952f
+C8 m1_11905_2235# VSUBS 3.77265f
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_UP82F9 a_n573_n703# a_n703_n833# a_n573_271#
+X0 a_n573_271# a_n573_n703# a_n703_n833# sky130_fd_pr__res_xhigh_po_5p73 l=2.87
+.ends
+
+.subckt x100k_res sky130_fd_pr__res_xhigh_po_5p73_UP82F9_7/a_n573_n703# sky130_fd_pr__res_xhigh_po_5p73_UP82F9_0/a_n573_n703#
++ VSUBS
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_8 m1_10425_119# VSUBS m1_10425_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_9 m1_7469_119# VSUBS m1_8947_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_90 m1_79_14997# VSUBS m1_79_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_80 m1_1557_13259# VSUBS m1_1557_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_91 m1_1557_14997# VSUBS m1_79_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_70 m1_13381_9783# VSUBS m1_13381_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_81 m1_79_13259# VSUBS m1_79_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_92 m1_3035_14997# VSUBS m1_3035_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_71 m1_11903_9783# VSUBS m1_11903_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_60 m1_13381_11521# VSUBS m1_13381_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_82 m1_4513_13259# VSUBS m1_4513_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_93 m1_4513_14997# VSUBS m1_3035_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_50 m1_7469_6307# VSUBS m1_7469_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_72 m1_10425_9783# VSUBS m1_10425_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_61 m1_8947_11521# VSUBS m1_8947_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_83 m1_3035_13259# VSUBS m1_3035_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_94 m1_5991_14997# VSUBS m1_5991_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_51 m1_5991_6307# VSUBS m1_5991_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_40 m1_79_8045# VSUBS m1_79_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_73 m1_8947_9783# VSUBS m1_8947_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_62 m1_10425_11521# VSUBS m1_10425_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_84 m1_7469_13259# VSUBS m1_7469_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_95 m1_7469_14997# VSUBS m1_5991_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_96 m1_8947_14997# VSUBS m1_8947_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_30 m1_13381_4569# VSUBS m1_13381_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_41 m1_1557_8045# VSUBS m1_1557_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_52 m1_8947_8045# VSUBS m1_8947_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_74 m1_7469_9783# VSUBS m1_7469_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_63 m1_11903_11521# VSUBS m1_11903_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_85 m1_5991_13259# VSUBS m1_5991_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_97 m1_10425_14997# VSUBS m1_8947_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_20 m1_1557_2831# VSUBS m1_1557_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_31 m1_8947_4569# VSUBS m1_8947_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_42 m1_1557_6307# VSUBS m1_1557_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_53 m1_10425_8045# VSUBS m1_10425_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_75 m1_5991_9783# VSUBS m1_5991_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_64 m1_5991_11521# VSUBS m1_5991_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_86 m1_11903_13259# VSUBS m1_11903_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_98 m1_11903_14997# VSUBS m1_11903_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_10 m1_13381_1093# VSUBS m1_13381_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_21 m1_79_2831# VSUBS m1_79_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_32 m1_10425_4569# VSUBS m1_10425_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_43 m1_79_6307# VSUBS m1_79_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_54 m1_11903_8045# VSUBS m1_11903_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_76 m1_4513_9783# VSUBS m1_4513_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_65 m1_7469_11521# VSUBS m1_7469_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_87 m1_10425_13259# VSUBS m1_10425_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_99 m1_13381_14997# VSUBS m1_11903_16735# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_11 m1_11903_1093# VSUBS m1_11903_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_22 m1_4513_2831# VSUBS m1_4513_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_33 m1_11903_4569# VSUBS m1_11903_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_55 m1_11903_6307# VSUBS m1_11903_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_44 m1_3035_8045# VSUBS m1_3035_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_77 m1_3035_9783# VSUBS m1_3035_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_66 m1_3035_11521# VSUBS m1_3035_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_88 m1_8947_13259# VSUBS m1_8947_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_12 m1_10425_1093# VSUBS m1_10425_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_23 m1_3035_2831# VSUBS m1_3035_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_34 m1_5991_4569# VSUBS m1_5991_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_56 m1_10425_6307# VSUBS m1_10425_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_45 m1_4513_8045# VSUBS m1_4513_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_78 m1_1557_9783# VSUBS m1_1557_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_67 m1_4513_11521# VSUBS m1_4513_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_89 m1_13381_13259# VSUBS m1_13381_14997# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_13 m1_8947_1093# VSUBS m1_8947_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_24 m1_7469_2831# VSUBS m1_7469_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_35 m1_7469_4569# VSUBS m1_7469_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_46 m1_4513_6307# VSUBS m1_4513_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_57 m1_8947_6307# VSUBS m1_8947_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_79 m1_79_9783# VSUBS m1_79_11521# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_68 m1_79_11521# VSUBS m1_79_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_14 m1_7469_1093# VSUBS m1_7469_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_0 sky130_fd_pr__res_xhigh_po_5p73_UP82F9_0/a_n573_n703#
++ VSUBS m1_13381_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_25 m1_5991_2831# VSUBS m1_5991_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_36 m1_3035_4569# VSUBS m1_3035_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_47 m1_3035_6307# VSUBS m1_3035_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_58 m1_13381_8045# VSUBS m1_13381_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_69 m1_1557_11521# VSUBS m1_1557_13259# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_1 m1_10425_119# VSUBS m1_11903_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_15 m1_5991_1093# VSUBS m1_5991_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_26 m1_11903_2831# VSUBS m1_11903_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_37 m1_4513_4569# VSUBS m1_4513_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_59 m1_13381_6307# VSUBS m1_13381_8045# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_48 m1_5991_8045# VSUBS m1_5991_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_16 m1_4513_1093# VSUBS m1_4513_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_2 m1_7469_119# VSUBS m1_7469_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_27 m1_10425_2831# VSUBS m1_10425_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_38 m1_79_4569# VSUBS m1_79_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_49 m1_7469_8045# VSUBS m1_7469_9783# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_17 m1_3035_1093# VSUBS m1_3035_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_3 m1_4513_119# VSUBS m1_5991_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_28 m1_8947_2831# VSUBS m1_8947_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_39 m1_1557_4569# VSUBS m1_1557_6307# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_18 m1_1557_1093# VSUBS m1_1557_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_4 m1_1557_119# VSUBS m1_3035_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_29 m1_13381_2831# VSUBS m1_13381_4569# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_19 m1_79_1093# VSUBS m1_79_2831# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_5 m1_4513_119# VSUBS m1_4513_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_6 m1_1557_119# VSUBS m1_1557_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+Xsky130_fd_pr__res_xhigh_po_5p73_UP82F9_7 sky130_fd_pr__res_xhigh_po_5p73_UP82F9_7/a_n573_n703#
++ VSUBS m1_79_1093# sky130_fd_pr__res_xhigh_po_5p73_UP82F9
+C0 m1_79_1093# VSUBS 3.328937f
+C1 m1_1557_119# VSUBS 3.404837f
+C2 m1_1557_1093# VSUBS 3.196909f
+C3 m1_4513_119# VSUBS 3.404073f
+C4 m1_4513_1093# VSUBS 3.196909f
+C5 m1_79_2831# VSUBS 3.328553f
+C6 m1_13381_4569# VSUBS 3.328552f
+C7 m1_3035_1093# VSUBS 3.196909f
+C8 m1_1557_2831# VSUBS 3.196909f
+C9 m1_1557_6307# VSUBS 3.196909f
+C10 m1_8947_4569# VSUBS 3.196909f
+C11 m1_5991_1093# VSUBS 3.196909f
+C12 m1_3035_2831# VSUBS 3.196909f
+C13 m1_7469_9783# VSUBS 3.196909f
+C14 m1_79_6307# VSUBS 3.328554f
+C15 m1_10425_4569# VSUBS 3.19691f
+C16 m1_7469_119# VSUBS 3.404073f
+C17 m1_7469_1093# VSUBS 3.196909f
+C18 m1_4513_2831# VSUBS 3.196909f
+C19 m1_5991_9783# VSUBS 3.196909f
+C20 m1_13381_8045# VSUBS 3.328552f
+C21 m1_4513_6307# VSUBS 3.196909f
+C22 m1_11903_4569# VSUBS 3.19691f
+C23 m1_5991_2831# VSUBS 3.196909f
+C24 m1_11903_1093# VSUBS 3.196909f
+C25 m1_1557_13259# VSUBS 3.19691f
+C26 m1_13381_9783# VSUBS 3.328554f
+C27 m1_3035_8045# VSUBS 3.196909f
+C28 m1_3035_6307# VSUBS 3.196909f
+C29 m1_5991_4569# VSUBS 3.19691f
+C30 m1_13381_1093# VSUBS 3.328937f
+C31 m1_7469_2831# VSUBS 3.196909f
+C32 m1_79_13259# VSUBS 3.328553f
+C33 m1_79_11521# VSUBS 3.328553f
+C34 m1_8947_8045# VSUBS 3.196909f
+C35 m1_4513_8045# VSUBS 3.196909f
+C36 m1_7469_6307# VSUBS 3.19691f
+C37 m1_7469_4569# VSUBS 3.19691f
+C38 m1_8947_2831# VSUBS 3.196908f
+C39 m1_13381_14997# VSUBS 3.328553f
+C40 m1_4513_13259# VSUBS 3.196909f
+C41 m1_1557_11521# VSUBS 3.196909f
+C42 m1_4513_9783# VSUBS 3.196909f
+C43 m1_10425_8045# VSUBS 3.19691f
+C44 m1_5991_6307# VSUBS 3.196909f
+C45 m1_3035_4569# VSUBS 3.196909f
+C46 m1_10425_2831# VSUBS 3.196909f
+C47 m1_8947_14997# VSUBS 3.196909f
+C48 m1_3035_13259# VSUBS 3.196909f
+C49 m1_3035_11521# VSUBS 3.196909f
+C50 m1_3035_9783# VSUBS 3.196909f
+C51 m1_11903_8045# VSUBS 3.19691f
+C52 m1_11903_6307# VSUBS 3.196909f
+C53 m1_4513_4569# VSUBS 3.196909f
+C54 m1_11903_2831# VSUBS 3.196909f
+C55 m1_10425_14997# VSUBS 3.19691f
+C56 m1_7469_13259# VSUBS 3.19691f
+C57 m1_4513_11521# VSUBS 3.196909f
+C58 m1_11903_9783# VSUBS 3.196909f
+C59 m1_79_8045# VSUBS 3.328553f
+C60 m1_10425_6307# VSUBS 3.196909f
+C61 m1_79_4569# VSUBS 3.328553f
+C62 m1_13381_2831# VSUBS 3.328554f
+C63 m1_11903_16735# VSUBS 3.451526f
+C64 m1_11903_14997# VSUBS 3.19691f
+C65 m1_5991_13259# VSUBS 3.196909f
+C66 m1_5991_11521# VSUBS 3.196909f
+C67 m1_10425_9783# VSUBS 3.196909f
+C68 m1_1557_8045# VSUBS 3.19691f
+C69 m1_8947_6307# VSUBS 3.196909f
+C70 m1_1557_4569# VSUBS 3.196909f
+C71 m1_5991_14997# VSUBS 3.196909f
+C72 m1_11903_13259# VSUBS 3.196909f
+C73 m1_7469_11521# VSUBS 3.19691f
+C74 m1_8947_9783# VSUBS 3.196908f
+C75 m1_1557_9783# VSUBS 3.196909f
+C76 m1_13381_6307# VSUBS 3.328553f
+C77 m1_8947_16735# VSUBS 3.404073f
+C78 m1_7469_14997# VSUBS 3.196908f
+C79 m1_10425_13259# VSUBS 3.196909f
+C80 m1_8947_11521# VSUBS 3.196909f
+C81 m1_79_9783# VSUBS 3.328553f
+C82 m1_5991_8045# VSUBS 3.196909f
+C83 m1_5991_16735# VSUBS 3.404073f
+C84 m1_3035_14997# VSUBS 3.196909f
+C85 m1_8947_13259# VSUBS 3.196909f
+C86 m1_10425_11521# VSUBS 3.196909f
+C87 m1_7469_8045# VSUBS 3.196909f
+C88 m1_4513_14997# VSUBS 3.196909f
+C89 m1_13381_13259# VSUBS 3.328553f
+C90 m1_11903_11521# VSUBS 3.196909f
+C91 m1_3035_16735# VSUBS 3.404073f
+C92 m1_79_14997# VSUBS 3.328553f
+C93 m1_13381_11521# VSUBS 3.328553f
+C94 m1_1557_14997# VSUBS 3.19691f
+C95 m1_79_16735# VSUBS 3.451525f
+C96 m1_8947_1093# VSUBS 3.196909f
+C97 m1_10425_119# VSUBS 3.404837f
+C98 m1_10425_1093# VSUBS 3.19691f
+.ends
+
+.subckt mixedsignal VDPWR VGND ui_in[0] ui_in[1] ua[1] ua[0] 
+XInverter_base_0 ua[0] VDPWR mux_in VGND Inverter_base
+X300k_res_1 ua[0] mux_in VGND x300k_res
+X3k_res_0 ua[1] mux_in VGND x3k_res
+X3k_res_1 4-to-1_analog_MUX_0/I3 ua[0] VGND x3k_res
+X4-to-1_analog_MUX_0 4-to-1_analog_MUX_0/I1 4-to-1_analog_MUX_0/I2 4-to-1_analog_MUX_0/I3
++ 4-to-1_analog_MUX_0/I4 ui_in[1] ui_in[0] mux_in VDPWR VGND x4-to-1_analog_MUX
+X30k_res_0 ua[0] 4-to-1_analog_MUX_0/I2 VGND x30k_res
+X100k_res_1 4-to-1_analog_MUX_0/I4 ua[0] VGND x100k_res
+C0 ui_in[1] ui_in[0] 15.387506f
+C1 100k_res_1/m1_79_1093# VGND 3.421979f
+C2 100k_res_1/m1_1557_119# VGND 3.540124f
+C3 100k_res_1/m1_1557_1093# VGND 3.22192f
+C4 100k_res_1/m1_4513_119# VGND 3.539364f
+C5 100k_res_1/m1_4513_1093# VGND 3.221919f
+C6 100k_res_1/m1_79_2831# VGND 3.422769f
+C7 100k_res_1/m1_13381_4569# VGND 3.521435f
+C8 100k_res_1/m1_3035_1093# VGND 3.22192f
+C9 100k_res_1/m1_1557_2831# VGND 3.22192f
+C10 100k_res_1/m1_1557_6307# VGND 3.22192f
+C11 100k_res_1/m1_8947_4569# VGND 3.22192f
+C12 100k_res_1/m1_5991_1093# VGND 3.22192f
+C13 100k_res_1/m1_3035_2831# VGND 3.22192f
+C14 100k_res_1/m1_7469_9783# VGND 3.22192f
+C15 100k_res_1/m1_79_6307# VGND 3.421561f
+C16 100k_res_1/m1_10425_4569# VGND 3.22192f
+C17 100k_res_1/m1_7469_119# VGND 3.539364f
+C18 100k_res_1/m1_7469_1093# VGND 3.22192f
+C19 100k_res_1/m1_4513_2831# VGND 3.221919f
+C20 100k_res_1/m1_5991_9783# VGND 3.22192f
+C21 100k_res_1/m1_13381_8045# VGND 3.521435f
+C22 100k_res_1/m1_4513_6307# VGND 3.221919f
+C23 100k_res_1/m1_11903_4569# VGND 3.22192f
+C24 100k_res_1/m1_5991_2831# VGND 3.22192f
+C25 100k_res_1/m1_11903_1093# VGND 3.22192f
+C26 100k_res_1/m1_1557_13259# VGND 3.22192f
+C27 100k_res_1/m1_13381_9783# VGND 3.521435f
+C28 100k_res_1/m1_3035_8045# VGND 3.22192f
+C29 100k_res_1/m1_3035_6307# VGND 3.22192f
+C30 100k_res_1/m1_5991_4569# VGND 3.22192f
+C31 100k_res_1/m1_13381_1093# VGND 3.521853f
+C32 100k_res_1/m1_7469_2831# VGND 3.22192f
+C33 100k_res_1/m1_79_13259# VGND 3.4237f
+C34 100k_res_1/m1_79_11521# VGND 3.422187f
+C35 100k_res_1/m1_8947_8045# VGND 3.22192f
+C36 100k_res_1/m1_4513_8045# VGND 3.221919f
+C37 100k_res_1/m1_7469_6307# VGND 3.22192f
+C38 100k_res_1/m1_7469_4569# VGND 3.22192f
+C39 100k_res_1/m1_8947_2831# VGND 3.22192f
+C40 100k_res_1/m1_13381_14997# VGND 3.521435f
+C41 100k_res_1/m1_4513_13259# VGND 3.221919f
+C42 100k_res_1/m1_1557_11521# VGND 3.22192f
+C43 100k_res_1/m1_4513_9783# VGND 3.221919f
+C44 100k_res_1/m1_10425_8045# VGND 3.22192f
+C45 100k_res_1/m1_5991_6307# VGND 3.22192f
+C46 100k_res_1/m1_3035_4569# VGND 3.22192f
+C47 100k_res_1/m1_10425_2831# VGND 3.22192f
+C48 100k_res_1/m1_8947_14997# VGND 3.22192f
+C49 100k_res_1/m1_3035_13259# VGND 3.22192f
+C50 100k_res_1/m1_3035_11521# VGND 3.22192f
+C51 100k_res_1/m1_3035_9783# VGND 3.22192f
+C52 100k_res_1/m1_11903_8045# VGND 3.22192f
+C53 100k_res_1/m1_11903_6307# VGND 3.22192f
+C54 100k_res_1/m1_4513_4569# VGND 3.221919f
+C55 100k_res_1/m1_11903_2831# VGND 3.22192f
+C56 100k_res_1/m1_10425_14997# VGND 3.22192f
+C57 100k_res_1/m1_7469_13259# VGND 3.22192f
+C58 100k_res_1/m1_4513_11521# VGND 3.221919f
+C59 100k_res_1/m1_11903_9783# VGND 3.22192f
+C60 100k_res_1/m1_79_8045# VGND 3.4237f
+C61 100k_res_1/m1_10425_6307# VGND 3.22192f
+C62 100k_res_1/m1_79_4569# VGND 3.423257f
+C63 100k_res_1/m1_13381_2831# VGND 3.521435f
+C64 100k_res_1/m1_11903_16735# VGND 3.398413f
+C65 100k_res_1/m1_11903_14997# VGND 3.22192f
+C66 100k_res_1/m1_5991_13259# VGND 3.22192f
+C67 100k_res_1/m1_5991_11521# VGND 3.22192f
+C68 100k_res_1/m1_10425_9783# VGND 3.22192f
+C69 100k_res_1/m1_1557_8045# VGND 3.22192f
+C70 100k_res_1/m1_8947_6307# VGND 3.22192f
+C71 100k_res_1/m1_1557_4569# VGND 3.22192f
+C72 100k_res_1/m1_5991_14997# VGND 3.22192f
+C73 100k_res_1/m1_11903_13259# VGND 3.22192f
+C74 100k_res_1/m1_7469_11521# VGND 3.22192f
+C75 100k_res_1/m1_8947_9783# VGND 3.22192f
+C76 100k_res_1/m1_1557_9783# VGND 3.22192f
+C77 100k_res_1/m1_13381_6307# VGND 3.521435f
+C78 100k_res_1/m1_8947_16735# VGND 3.284066f
+C79 100k_res_1/m1_7469_14997# VGND 3.22192f
+C80 100k_res_1/m1_10425_13259# VGND 3.22192f
+C81 100k_res_1/m1_8947_11521# VGND 3.22192f
+C82 100k_res_1/m1_79_9783# VGND 3.421561f
+C83 100k_res_1/m1_5991_8045# VGND 3.22192f
+C84 100k_res_1/m1_5991_16735# VGND 3.284067f
+C85 100k_res_1/m1_3035_14997# VGND 3.22192f
+C86 100k_res_1/m1_8947_13259# VGND 3.22192f
+C87 100k_res_1/m1_10425_11521# VGND 3.22192f
+C88 100k_res_1/m1_7469_8045# VGND 3.22192f
+C89 100k_res_1/m1_4513_14997# VGND 3.221919f
+C90 100k_res_1/m1_13381_13259# VGND 3.521435f
+C91 100k_res_1/m1_11903_11521# VGND 3.22192f
+C92 100k_res_1/m1_3035_16735# VGND 3.284066f
+C93 100k_res_1/m1_79_14997# VGND 3.421561f
+C94 100k_res_1/m1_13381_11521# VGND 3.521435f
+C95 100k_res_1/m1_1557_14997# VGND 3.22192f
+C96 100k_res_1/m1_79_16735# VGND 3.358396f
+C97 100k_res_1/m1_8947_1093# VGND 3.22192f
+C98 100k_res_1/m1_10425_119# VGND 3.540124f
+C99 100k_res_1/m1_10425_1093# VGND 3.22192f
+C100 30k_res_0/m1_4515_115# VGND 3.841188f
+C101 30k_res_0/m1_3037_2235# VGND 3.860362f
+C102 30k_res_0/m1_5993_2235# VGND 3.860362f
+C103 30k_res_0/m1_7471_115# VGND 3.841188f
+C104 30k_res_0/m1_10427_115# VGND 3.841938f
+C105 30k_res_0/m1_8949_2235# VGND 3.860361f
+C106 30k_res_0/m1_81_2235# VGND 3.956507f
+C107 30k_res_0/m1_1559_115# VGND 3.841938f
+C108 30k_res_0/m1_11905_2235# VGND 3.965088f
+C109 VDPWR VGND 49.071777f
+C110 ui_in[0] VGND 6.952738f
+C111 ui_in[1] VGND 7.840004f
+C112 4-to-1_analog_MUX_0/I3 VGND 2.462216f
+C113 4-to-1_analog_MUX_0/I2 VGND 4.259985f
+C114 4-to-1_analog_MUX_0/I4 VGND 4.034928f
+C115 ua[1] VGND 2.213986f
+C116 300k_res_1/m1_13869_30959# VGND 3.54319f
+C117 300k_res_1/m1_16825_42495# VGND 3.54319f
+C118 300k_res_1/m1_5001_30959# VGND 3.680607f
+C119 300k_res_1/m1_15347_42495# VGND 3.54319f
+C120 300k_res_1/m1_18303_39611# VGND 3.743469f
+C121 300k_res_1/m1_12391_36727# VGND 3.54319f
+C122 300k_res_1/m1_13869_39611# VGND 3.54319f
+C123 300k_res_1/m1_10913_36727# VGND 3.54319f
+C124 300k_res_1/m1_18303_33843# VGND 3.744538f
+C125 300k_res_1/m1_6479_28839# VGND 3.8684f
+C126 300k_res_1/m1_6479_30959# VGND 3.54319f
+C127 300k_res_1/m1_18303_45379# VGND 3.739981f
+C128 300k_res_1/m1_18303_36727# VGND 3.744981f
+C129 300k_res_1/m1_15347_28839# VGND 3.869245f
+C130 300k_res_1/m1_15347_30959# VGND 3.54319f
+C131 300k_res_1/m1_9435_33843# VGND 3.54319f
+C132 300k_res_1/m1_7957_30959# VGND 3.54319f
+C133 300k_res_1/m1_5001_54031# VGND 3.680607f
+C134 300k_res_1/m1_16825_45379# VGND 3.54319f
+C135 300k_res_1/m1_16825_33843# VGND 3.54319f
+C136 300k_res_1/m1_9435_28839# VGND 3.872298f
+C137 300k_res_1/m1_9435_30959# VGND 3.54319f
+C138 300k_res_1/m1_7957_33843# VGND 3.54319f
+C139 300k_res_1/m1_16825_30959# VGND 3.54319f
+C140 300k_res_1/m1_9435_54031# VGND 3.54319f
+C141 300k_res_1/m1_10913_51147# VGND 3.54319f
+C142 300k_res_1/m1_15347_45379# VGND 3.54319f
+C143 300k_res_1/m1_18303_42495# VGND 3.744981f
+C144 300k_res_1/m1_12391_39611# VGND 3.54319f
+C145 300k_res_1/m1_15347_33843# VGND 3.54319f
+C146 300k_res_1/m1_6479_33843# VGND 3.54319f
+C147 300k_res_1/m1_7957_54031# VGND 3.54319f
+C148 300k_res_1/m1_5001_51147# VGND 3.680607f
+C149 300k_res_1/m1_13869_48263# VGND 3.54319f
+C150 300k_res_1/m1_13869_45379# VGND 3.54319f
+C151 300k_res_1/m1_16825_39611# VGND 3.54319f
+C152 300k_res_1/m1_10913_39611# VGND 3.54319f
+C153 300k_res_1/m1_16825_36727# VGND 3.54319f
+C154 300k_res_1/m1_9435_36727# VGND 3.54319f
+C155 300k_res_1/m1_6479_54031# VGND 3.54319f
+C156 300k_res_1/m1_12391_48263# VGND 3.54319f
+C157 300k_res_1/m1_5001_48263# VGND 3.680607f
+C158 300k_res_1/m1_12391_45379# VGND 3.54319f
+C159 300k_res_1/m1_15347_39611# VGND 3.54319f
+C160 300k_res_1/m1_15347_36727# VGND 3.54319f
+C161 300k_res_1/m1_7957_36727# VGND 3.54319f
+C162 300k_res_1/m1_18303_30959# VGND 3.744049f
+C163 300k_res_1/m1_13869_54031# VGND 3.54319f
+C164 300k_res_1/m1_9435_51147# VGND 3.54319f
+C165 300k_res_1/m1_10913_48263# VGND 3.54319f
+C166 300k_res_1/m1_10913_45379# VGND 3.54319f
+C167 300k_res_1/m1_13869_42495# VGND 3.54319f
+C168 300k_res_1/m1_6479_36727# VGND 3.54319f
+C169 300k_res_1/m1_13869_33843# VGND 3.54319f
+C170 300k_res_1/m1_10913_30959# VGND 3.54319f
+C171 300k_res_1/m1_16825_56915# VGND 3.675885f
+C172 300k_res_1/m1_12391_54031# VGND 3.54319f
+C173 300k_res_1/m1_16825_51147# VGND 3.54319f
+C174 300k_res_1/m1_7957_51147# VGND 3.54319f
+C175 300k_res_1/m1_9435_45379# VGND 3.54319f
+C176 300k_res_1/m1_12391_33843# VGND 3.54319f
+C177 300k_res_1/m1_12391_28839# VGND 3.835321f
+C178 300k_res_1/m1_12391_30959# VGND 3.54319f
+C179 300k_res_1/m1_5001_33843# VGND 3.680607f
+C180 300k_res_1/m1_10913_54031# VGND 3.54319f
+C181 300k_res_1/m1_15347_51147# VGND 3.54319f
+C182 300k_res_1/m1_6479_51147# VGND 3.54319f
+C183 300k_res_1/m1_7957_45379# VGND 3.54319f
+C184 300k_res_1/m1_5001_36727# VGND 3.680607f
+C185 300k_res_1/m1_10913_33843# VGND 3.54319f
+C186 300k_res_1/m1_13869_56915# VGND 3.605064f
+C187 300k_res_1/m1_16825_54031# VGND 3.54319f
+C188 300k_res_1/m1_16825_48263# VGND 3.54319f
+C189 300k_res_1/m1_9435_48263# VGND 3.54319f
+C190 300k_res_1/m1_6479_45379# VGND 3.54319f
+C191 300k_res_1/m1_12391_42495# VGND 3.54319f
+C192 300k_res_1/m1_13869_36727# VGND 3.54319f
+C193 300k_res_1/m1_10913_56915# VGND 3.605064f
+C194 300k_res_1/m1_15347_54031# VGND 3.54319f
+C195 300k_res_1/m1_15347_48263# VGND 3.54319f
+C196 300k_res_1/m1_7957_48263# VGND 3.54319f
+C197 300k_res_1/m1_5001_45379# VGND 3.680607f
+C198 300k_res_1/m1_10913_42495# VGND 3.54319f
+C199 300k_res_1/m1_18303_54031# VGND 3.733127f
+C200 300k_res_1/m1_18303_51147# VGND 3.733127f
+C201 300k_res_1/m1_6479_48263# VGND 3.54319f
+C202 300k_res_1/m1_9435_39611# VGND 3.54319f
+C203 300k_res_1/m1_7957_56915# VGND 3.605064f
+C204 300k_res_1/m1_13869_51147# VGND 3.54319f
+C205 300k_res_1/m1_18303_48263# VGND 3.733128f
+C206 300k_res_1/m1_7957_39611# VGND 3.54319f
+C207 300k_res_1/m1_12391_51147# VGND 3.54319f
+C208 300k_res_1/m1_6479_39611# VGND 3.54319f
+C209 300k_res_1/m1_5001_56915# VGND 3.656914f
+C210 300k_res_1/m1_9435_42495# VGND 3.54319f
+C211 300k_res_1/m1_7957_42495# VGND 3.54319f
+C212 300k_res_1/m1_6479_42495# VGND 3.54319f
+C213 300k_res_1/m1_5001_39611# VGND 3.680607f
+C214 300k_res_1/m1_5001_42495# VGND 3.680607f
+C215 ua[0] VGND 21.04009f
+C216 mux_in VGND 11.382056f
+.ends
+
