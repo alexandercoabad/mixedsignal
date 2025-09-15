@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "mixedsignal"      # Project title
-  author:       "Alexander Co Abad and Isabelle Rose Sta Rita"      # Your name
-  discord:      "alexandercoabad_25756 and dubsdubu01"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "Alexander Co Abad; Isabelle Rose Sta Rita"      # Your name
+  discord:      "alexandercoabad_25756; dubsdubu01"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Inverter Biased for Linear Mode Operation"      # One-line description of what your project does
   language:     "Analog" # Other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)

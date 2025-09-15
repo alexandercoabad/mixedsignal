@@ -34,7 +34,7 @@ The possible R2 effective values are:
     - Amplitude = 10 mV  
     - Frequency = 10 kHz
 3. Observe the output waveform using an oscilloscope.  
-4. Change the MUX selection (3 kΩ, 30 kΩ, or 100 kΩ) to vary the gain by changing the parallel resistance with R2.  
+4. Change the MUX selection (3 kΩ, 30 kΩ, or 100 kΩ) using the digital input pins (ui_in[0] and ui_in[1]) to vary the gain by changing the parallel resistance with R2.  
 5. You may use the **mixedsignal_sym_tb.sch** testbench as a guide for the setup. 
 
 <p align="center">
