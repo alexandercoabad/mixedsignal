@@ -51,23 +51,23 @@ The possible R2 effective values are:
 S1 = 0 & S2 = 0
 
 <p align="center">
-  <img src="output_00.jpg" alt="Inverter Linear Mode Operation" width="400"/>
+  <img src="output_00.jpg" alt="Inverter Linear Mode Operation" width="1200"/>
 </p>
 
 S1 = 0 & S2 = 1
 
 <p align="center">
-  <img src="output_01.jpg" alt="Inverter Linear Mode Operation" width="400"/>
+  <img src="output_01.jpg" alt="Inverter Linear Mode Operation" width="1200"/>
 </p>
 
 S1 = 1 & S2 = 0
 
 <p align="center">
-  <img src="output_10.jpg" alt="Inverter Linear Mode Operation" width="400"/>
+  <img src="output_10.jpg" alt="Inverter Linear Mode Operation" width="1200"/>
 </p>
 
 S1 = 1 & S2 = 1
 
 <p align="center">
-  <img src="output_11.jpg" alt="Inverter Linear Mode Operation" width="400"/>
+  <img src="output_11.jpg" alt="Inverter Linear Mode Operation" width="1200"/>
 </p>
