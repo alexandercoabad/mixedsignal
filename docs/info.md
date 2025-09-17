@@ -47,7 +47,7 @@ The possible R2 effective values are:
 - Oscilloscope  
 - 20 nF capacitor  
 
-## Results
+## Post-Layout Results
 S1 = 0 & S2 = 0
 
 <p align="center">
