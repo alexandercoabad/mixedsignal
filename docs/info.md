@@ -16,6 +16,8 @@ An inverter is biased for linear mode operation.
 
 </p>
 
+Topology after National Semiconductor Application Note 88, "CMOS Linear Applications" (July 1973). [PDF copy](https://www.qsl.net/l/lu7did//docs/QRPp/TTL_CMOS%20As%20Linear%20Amplifier_AN-88.pdf)
+
 A multiplexer (MUX) is connected in parallel with the feedback resistor (R2 = 300 kΩ).  
 - By default, no additional resistor is connected in parallel.  
 - When the MUX selects a resistor, it is placed in parallel with R2, reducing the effective resistance and changing the gain.  
