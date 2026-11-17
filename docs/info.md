@@ -12,7 +12,7 @@ You can also include images in this folder and reference them in the markdown. E
 An inverter is biased for linear mode operation. 
 
 <p align="center">
-<img width="1280" height="520" alt="inverter_amplifier_schematic" src="https://github.com/user-attachments/assets/99ce3fd1-b14f-41f1-ae6e-79ca1cb11ff7" />
+<img src="inverter_amplifier_schematic.png" alt="Feedback-biased inverter amplifier" width="600"/>
 
 </p>
 
