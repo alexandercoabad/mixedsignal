@@ -12,7 +12,8 @@ You can also include images in this folder and reference them in the markdown. E
 An inverter is biased for linear mode operation. 
 
 <p align="center">
-  <img src="linear_mode_operation.jpg" alt="Inverter Linear Mode Operation" width="400"/>
+<img width="1280" height="520" alt="inverter_amplifier_schematic" src="https://github.com/user-attachments/assets/99ce3fd1-b14f-41f1-ae6e-79ca1cb11ff7" />
+
 </p>
 
 A multiplexer (MUX) is connected in parallel with the feedback resistor (R2 = 300 kΩ).  
